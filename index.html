@@ -29,28 +29,77 @@
             color: #0056b3;
         }
 
+        h2 {
+            color: #0056b3;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
         p {
             text-align: center;
             margin-bottom: 20px;
         }
 
-        ul {
-            list-style: none;
-            padding: 0;
-            text-align: center;
+        .section {
+            margin-bottom: 30px;
         }
 
-        li {
-            margin-bottom: 10px;
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
         }
 
-        a {
+        .project a {
             color: #007bff;
             text-decoration: none;
             transition: color 0.3s ease;
         }
 
-        a:hover {
+        .project a:hover {
+            color: #0056b3;
+        }
+
+        .project-description {
+            margin-top: 10px;
+            color: #555;
+        }
+
+        .disclaimer {
+            font-size: 0.9em;
+            color: #777;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        ul {
+            list-style: disc; /* Cambiado a estilo de lista con puntos */
+            padding-left: 20px; /* Añadido padding para alinear los puntos */
+            text-align: left; /* Alineado el texto a la izquierda para mejor legibilidad */
+        }
+
+        ul li {
+            margin-bottom: 5px; /* Reducido el margen entre los elementos de la lista */
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
             color: #0056b3;
         }
     </style>
@@ -58,15 +107,39 @@
 <body>
     <div class="container">
         <h1>Mi Portafolio</h1>
-        <p>Bienvenido a mi portafolio. Aquí encontrarás una muestra de mis proyectos.</p>
+        <p>Bienvenido a mi portafolio. Aquí encontrarás una muestra de mis proyectos, centrado en la faceta técnica de mi trabajo. La experiencia en gestión de proyectos y otras habilidades no se reflejan en este espacio.</p>
 
-        <ul>
-            <li>
-                <a href="https://e45m.github.io/consultaSecop/" target="_blank">
-                    Consulta SECOP
-                </a>
-            </li>
-        </ul>
+        <section class="section">
+            <h2>Proyectos Web</h2>
+            <div class="project">
+                <a href="https://e45m.github.io/consultaSecop/" target="_blank">Consulta SECOP</a>
+                <p class="project-description">
+                    Aplicación web para consultar datos de contratación pública en Colombia utilizando la API del SECOP. Permite filtrar y visualizar la información de manera interactiva.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Proyectos en Desarrollo</h2>
+            <p>Actualmente, me encuentro desarrollando varios proyectos de Inteligencia Artificial enfocados en optimizar procesos empresariales. Utilizando herramientas como Ollama y Gemini, estoy explorando soluciones para:</p>
+            <ul>
+                <li><b>Análisis Estructural:</b> Identificación de patrones y relaciones clave dentro de los datos para una mejor comprensión del negocio.</li>
+                <li><b>Análisis de Mercado:</b> Predicción de tendencias y comportamiento del mercado para una toma de decisiones informada.</li>
+                <li><b>Análisis de Licitaciones:</b> Optimización de la participación en procesos de licitación mediante la identificación de oportunidades y la evaluación de la competencia.</li>
+                <li>Automatización inteligente de tareas</li>
+                <li>Business Intelligence de vanguardia</li>
+            </ul>
+            <p>Próximamente, se incluirán ejemplos y demostraciones de estos proyectos.</p>
+        </section>
+
+        <p class="disclaimer">Este portafolio presenta principalmente la faceta técnica de mi trabajo. La experiencia en gestión de proyectos y otras habilidades relevantes no se incluyen en este espacio.</p>
+
+        <footer class="footer">
+            <p>
+                Ver el código fuente de este sitio en <a href="https://github.com/e45m/e45m.github.io" target="_blank">GitHub</a> |
+                Conéctate conmigo en <a href="https://www.linkedin.com/in/efren-sandoval-mora-81585058/" target="_blank">LinkedIn</a>
+            </p>
+        </footer>
     </div>
 </body>
 </html>
