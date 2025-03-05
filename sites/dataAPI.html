@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consulta Datos GOV.CO</title>
+    <link rel="stylesheet" href="../static/styles_1.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../static/script_1.js"></script> <!-- Enlaza tu archivo JavaScript -->
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta Datos de Contratación Colombia</h1>
+
+        <!-- Input para los códigos UNSPSC -->
+        <label for="unspscCodes">Códigos UNSPSC (separados por comas):</label>
+        <input type="text" id="unspscCodes" value="7214,7215,3012">
+        <br>
+
+        <!-- Filtro por rango de precios -->
+        <label for="precioMin">Precio Mínimo:</label>
+        <input type="number" id="precioMin" placeholder="Mínimo" onkeyup="filtrarTabla()">
+
+        <label for="precioMax">Precio Máximo:</label>
+        <input type="number" id="precioMax" placeholder="Máximo" onkeyup="filtrarTabla()">
+        <br>
+
+        <button onclick="cargarDatos()">Cargar Datos</button>
+
+        <!-- Contenedor para los filtros -->
+        <div id="filtros">
+            <label for="filtroEntidad">Filtrar por Entidad:</label>
+            <input type="text" id="filtroEntidad" onkeyup="filtrarTabla()" placeholder="Escribe la entidad...">
+
+            <label for="filtroObjeto">Filtrar por Objeto:</label>
+            <input type="text" id="filtroObjeto" onkeyup="filtrarTabla()" placeholder="Escribe el objeto...">
+        </div>
+
+        <!-- Contenedor para los gráficos -->
+        <div class="graficos-container" style="display:none;" id="graficosContainer">
+            <div class="grafico">
+                <h3>Suma de Presupuestos por Entidad (Top 10)</h3>
+                <canvas id="presupuestosEntidadChart"></canvas>
+            </div>
+
+            <div class="grafico">
+                <h3>Presupuestos a lo Largo del Tiempo (Últimos 12 Meses)</h3>
+                <canvas id="presupuestosTiempoChart"></canvas>
+            </div>
+
+            <div class="grafico">
+                <h3>Número de Procesos por Tipo de Trabajo (UNSPSC Top 10)</h3>
+                <canvas id="procesosUnspscChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Tarjeta separada para el promedio -->
+        <div class="tarjeta" style="display:none;" id="tarjetaPromedio">
+            <h3>Promedio de Presupuesto vs. Plazo</h3>
+            <p id="promedioPresupuestoPlazo"></p>
+        </div>
+
+        <!-- Tabla donde se mostrarán los resultados -->
+        <table id="tablaResultados">
+            <thead>
+                <tr>
+                    <th>ID Proceso</th>
+                    <th>Entidad</th>
+                    <th>Numero</th>
+                    <th>Objeto</th>
+                    <th>Fase</th>
+                    <th>Publicado</th>
+                    <th>Presupuesto</th>
+                    <th>Modalidad</th>
+                    <th>Plazo</th>
+                    <th>Meses-dias</th>
+                    <th>Lotes</th>
+                    <th>Estado</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Los datos se insertarán aquí dinámicamente -->
+            </tbody>
+        </table>
+
+        <!-- Botón para regresar al portafolio -->
+        <a href="https://e45m.github.io/portfolio/" class="back-button" target="_blank">Regresar al Portafolio</a>
+
+        <!-- Pie de página -->
+        <footer class="footer">
+            <p>
+                Esta página se publicó gracias a <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> |
+                Conéctate conmigo en <a href="https://www.linkedin.com/in/efren-sandoval-mora-81585058/" target="_blank">LinkedIn</a>
+            </p>
+        </footer>
+    </div>
+<script>// Cargar los datos al cargar la página
+document.addEventListener('DOMContentLoaded', function() {cargarDatos();});
+</script>
+
+</body>
+</html>
