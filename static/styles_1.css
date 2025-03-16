@@ -14,16 +14,71 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
-        label { display: block; margin-bottom: 5px; color: #555; }
-        input[type="text"], input[type="number"] { width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
-        button { background-color: #007bff; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s ease; }
+
+        label { display: block;
+            margin-bottom: 5px;
+            color: #555; }
+        input[type="text"], input[type="number"] {
+            width: 98%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; }
+
+        button {
+            width: 98%; /* Aumentado para ocupar más espacio */
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+
+            background-color: #007bff;
+            color: white;
+            /*padding: 10px 15px;*/
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+        }
         button:hover { background-color: #0056b3; }
-        #filtros { margin-top: 15px; }
+        /*#filtros { margin-top: 15px; }*/
+
+
+       .table-container {
+           width: fit-content
+
+          border-collapse: collapse;
+            width: 98%; /* Aumentado para ocupar más espacio */
+
+
+            padding: 20px;
+
+        }
 
         /* Estilos para la tabla */
-        table { border-collapse: collapse; width: 100%; margin-top: 20px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }
-        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-        th { background-color: #007bff; color: white; padding-top: 12px; padding-bottom: 12px; text-align: left; }
+        table {
+
+            border-collapse: collapse;
+
+
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left; }
+
+        th { background-color: #007bff;
+            color: white;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left; }
+
+        tr:nth-child(odd) { background-color:#fff; }
         tr:nth-child(even) { background-color: #f2f2f2; }
 
         /* Estilos para la disposición de los gráficos */
@@ -34,6 +89,7 @@
             width: 100%; /* Ocupar todo el ancho del contenedor */
         }
 
+
         .grafico, .tarjeta {
             background-color: #fff;
             border: 1px solid #ddd;
@@ -41,7 +97,7 @@
             padding: 15px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
-            width: 30%; /* Ancho para cada gráfico (aproximadamente) */
+            width: 33%; /* Ancho para cada gráfico (aproximadamente) */
             box-sizing: border-box; /* Incluir padding y border en el ancho */
             margin: 0 10px; /* Margen horizontal para separar los gráficos */
         }
@@ -66,7 +122,12 @@
         /* Estilos específicos para la tarjeta */
         .tarjeta {
             text-align: center;
-            padding: 20px;
+
+
+            display: flex; /* Cambiado a flexbox */
+            justify-content: space-around; /* Espacio entre los gráficos */
+            margin-top: 30px;
+            width: 99%;
         }
 
         .tarjeta p {

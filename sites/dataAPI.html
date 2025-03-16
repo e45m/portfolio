@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Consulta Datos GOV.CO</title>
+    <title>Consulta de procesos SECOP 2 Datos Abiertos Colombia</title>
     <link rel="stylesheet" href="../static/styles_1.css">
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="../static/script_1.js"></script> <!-- Enlaza tu archivo JavaScript -->
+    <script src="../static/script_1.js"></script>
 </head>
+
 <body>
+
     <div class="container">
-        <h1>Consulta Datos de Contratación Colombia</h1>
+        <h1>Consulta Datos de Contratación Colombia - SECOP 2</h1>
 
         <!-- Input para los códigos UNSPSC -->
-        <label for="unspscCodes">Códigos UNSPSC (separados por comas):</label>
+        <label for="unspscCodes">Códigos UNSPSC:</label>
         <input type="text" id="unspscCodes" value="7214,7215,3012">
         <br>
 
@@ -24,16 +26,18 @@
         <input type="number" id="precioMax" placeholder="Máximo" onkeyup="filtrarTabla()">
         <br>
 
-        <button onclick="cargarDatos()">Cargar Datos</button>
+
 
         <!-- Contenedor para los filtros -->
-        <div id="filtros">
-            <label for="filtroEntidad">Filtrar por Entidad:</label>
-            <input type="text" id="filtroEntidad" onkeyup="filtrarTabla()" placeholder="Escribe la entidad...">
 
-            <label for="filtroObjeto">Filtrar por Objeto:</label>
-            <input type="text" id="filtroObjeto" onkeyup="filtrarTabla()" placeholder="Escribe el objeto...">
-        </div>
+        <label for="filtroEntidad">Filtrar por Entidad:</label>
+        <input type="text" id="filtroEntidad" onkeyup="filtrarTabla()" placeholder="Entidad">
+
+        <label for="filtroObjeto">Filtrar por Objeto:</label>
+        <input type="text" id="filtroObjeto" onkeyup="filtrarTabla()" placeholder="Objeto">
+
+
+       <button onclick="cargarDatos()">Aplicar Filtros</button>
 
         <!-- Contenedor para los gráficos -->
         <div class="graficos-container" style="display:none;" id="graficosContainer">
@@ -54,10 +58,19 @@
         </div>
 
         <!-- Tarjeta separada para el promedio -->
+
         <div class="tarjeta" style="display:none;" id="tarjetaPromedio">
-            <h3>Promedio de Presupuesto vs. Plazo</h3>
+
+            <h3>Promedio de Presupuesto vs. Promedio Plazo</h3>
             <p id="promedioPresupuestoPlazo"></p>
+
+
+
         </div>
+ </div>
+
+
+        <div class="table-container">
 
         <!-- Tabla donde se mostrarán los resultados -->
         <table id="tablaResultados">
@@ -82,6 +95,9 @@
                 <!-- Los datos se insertarán aquí dinámicamente -->
             </tbody>
         </table>
+
+    </div>
+     <div class="container">
 
         <!-- Botón para regresar al portafolio -->
         <a href="https://e45m.github.io/portfolio/" class="back-button" target="_blank">Regresar al Portafolio</a>

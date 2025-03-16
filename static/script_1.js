@@ -5,7 +5,7 @@ const MODALIDAD = 'Licitación pública Obra Publica';
 const PRECIO_BASE = 500000000;
 const FASE_LIKE = "%Presentación%";
 const ESTADO_LIKE = "Publicado";
-const LIMIT = 50;
+const LIMIT = 1000;
 
 let datosGlobales = [];
 let presupuestosEntidadChart, presupuestosTiempoChart, procesosUnspscChart;
@@ -103,7 +103,7 @@ function filtrarTabla() {
 
         idProceso.innerHTML = item.id_del_proceso || '';
         entidad.innerHTML = item.entidad || '';
-        numero.innerHTML = item.referencia_del_procedimiento || '';
+        numero.innerHTML = item.referencia_del_proceso || '';
         objeto.innerHTML = item.descripci_n_del_procedimiento || '';
         fase.innerHTML = item.fase || '';
         publicado.innerHTML = formatDate(item.fecha_de_publicacion_del) || '';
