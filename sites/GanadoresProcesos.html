@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consulta de procesos: contratos adjudicados a una Persona</title>
+    <link rel="stylesheet" href="../static/styles_1.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../static/script_2.js"></script>
+
+        <!-- Metadatos Open Graph (og:) esenciales -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SECOP Explorador de Personas Ganadores de Procesos : Contratación Pública en Colombia">
+    <meta property="og:description" content="Explora y analiza los datos de contratación pública en Colombia usando la API del SECOP. Filtra, visualiza y obtén información clave de manera interactiva.">
+<!--     <meta property="og:url" content="https://tu-sitio-web.com">  -->
+<!--     <meta property="og:image" content="https://tu-sitio-web.com/images/imagen-principal.jpg">-->
+    <meta property="og:locale" content="es_CO"> <!-- Código de idioma y país para Colombia -->
+
+<!--     <meta property="og:site_name" content="Buscador de Datos Secop 2"> -->
+<!--     <meta property="og:image:alt" content="Interfaz de la aplicación SECOP Data Explorer mostrando gráficos de contratación pública.">  -->
+<!--     <meta property="og:image:width" content="1200"> -->
+<!--     <meta property="og:image:height" content="630"> -->
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Contratos adjudicados a un Persona</h1>
+
+
+
+        <label for="Persona">Persona a Consultar:</label>
+        <input type="text" id="Persona"  placeholder="Nombre de la persona natural o Juridica (La consulta es sencible a Mayusculas y Minusculas)" >
+
+       <button onclick="cargarDatos()">Consultar</button>
+
+
+ </div>
+
+
+        <div class="table-container" style="margin:auto;">
+
+
+
+
+        <!-- Tabla donde se mostrarán los resultados -->
+        <table id="tablaResultados" style="margin:auto;">
+            <thead>
+                <tr>
+                    <th>Adjudicatario</th>
+                    <th>Entidad</th>
+                    <th>Valor del Contrato</th>
+                    <th>Tipo de Contrato</th>
+                    <th>Fecha de Firma</th>
+                    <th>Link del proceso</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Los datos se insertarán aquí dinámicamente -->
+            </tbody>
+        </table>
+
+    </div>
+     <div class="container">
+
+        <!-- Botón para regresar al portafolio -->
+        <a href="https://e45m.github.io/portfolio/" class="back-button" target="_blank">Regresar al Portafolio</a>
+
+        <!-- Pie de página -->
+        <footer class="footer">
+            <p>
+                Esta página se publicó gracias a <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> |
+                Conéctate conmigo en <a href="https://www.linkedin.com/in/efren-sandoval-mora-81585058/" target="_blank">LinkedIn</a>
+                Implementación de python: <a href="../resources/python_buscar_contratistas.py" target="_blank">ver</a>
+            </p>
+        </footer>
+    </div>
+
+
+</body>
+</html>
