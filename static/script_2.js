@@ -11,6 +11,7 @@ let presupuestosEntidadChart, presupuestosTiempoChart, procesosUnspscChart;
 async function cargarDatos() {
     //alert("ok");
     let datosParticipantes=[];
+    datosGlobales = [];
     const personaInput = document.getElementById('Persona').value.toUpperCase();
 
 
@@ -73,6 +74,9 @@ async function cargarDatos() {
 //
 //
 //     }
+
+
+    if(datosGlobales.length==0) alert("La consulta no dio resultados.");
 
 filtrarTabla();
 
