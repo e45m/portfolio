@@ -32,12 +32,12 @@
 
         <!-- Input para los códigos UNSPSC -->
         <label for="unspscCodes">Códigos UNSPSC:</label>
-        <input type="text" id="unspscCodes" value="7214,7215,3012">
+        <input type="text" id="unspscCodes" value="7214,7215,3012,8011">
         <br>
 
         <!-- Filtro por rango de precios -->
         <label for="precioMin">Precio Mínimo:</label>
-        <input type="number" id="precioMin" placeholder="Mínimo" onkeyup="filtrarTabla()">
+        <input type="number" id="precioMin" value=10000000000 placeholder="Mínimo" onkeyup="filtrarTabla()">
 
         <label for="precioMax">Precio Máximo:</label>
         <input type="number" id="precioMax" placeholder="Máximo" onkeyup="filtrarTabla()">

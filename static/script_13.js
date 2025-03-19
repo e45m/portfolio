@@ -2,11 +2,10 @@
 const WEBREPO = 'www.datos.gov.co';
 const DATASETNAME = 'p6dx-8zbt';
 const MODALIDAD = 'Licitación pública Obra Publica';
-const PRECIO_BASE = 500000000; ///500.000.000
+const PRECIO_BASE = 500000000;
 const FASE_LIKE = "%Presentación%";
 const ESTADO_LIKE = "Publicado";
-const LIMIT = 100;
-const IDPROCMIN = 6000000;
+const LIMIT = 1000;
 
 let datosGlobales = [];
 let presupuestosEntidadChart, presupuestosTiempoChart, procesosUnspscChart;
@@ -22,17 +21,8 @@ async function cargarDatos() {
         ${listaUNSPSC}
         AND (fase LIKE "${FASE_LIKE}")
         AND (estado_del_procedimiento LIKE "${ESTADO_LIKE}")
-        AND (precio_base>=${PRECIO_BASE})
-        AND (estado_de_apertura_del_proceso = "Abierto")
-        ORDER BY LEFT_PAD(SUBSTRING(id_del_proceso, 9),10,'0')  DESC
-        LIMIT ${LIMIT}
-
+        ORDER BY id_del_proceso DESC
     `;
-//https://dev.socrata.com/docs/functions/#2.1,
-
-    // 611117
-    // 6013375
-
 
     const API_ENDPOINT = `https://${WEBREPO}/resource/${DATASETNAME}.json?$query=${encodeURIComponent(sqlSelect)}`;
 
