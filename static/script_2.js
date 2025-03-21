@@ -1,7 +1,8 @@
 // Configuración inicial
 const WEBREPO = 'www.datos.gov.co';
 const DATASETNAME1 = 'ceth-n4bn'; //Proveedores registrados
-const DATASETNAME2 = 'jbjy-vk9h'; //ECOP II - Contratos Electrónicos
+const DATASETNAME2 = 'jbjy-vk9h'; //SECOP II - Contratos Electrónicos
+const DATASETNAME3 = 'rpmr-utcd'; //SECOP II - Contratos Integrados
 
 const LIMIT = 1000;
 
@@ -37,6 +38,9 @@ async function cargarDatos() {
     }
 
 
+if (document.getElementById('optdb').value =="SecopII") {
+//Consulta en SECOP II
+
     let parts = `UPPER(proveedor_adjudicado) LIKE "%${personaInput}%"`;
 
     for (const participante of datosParticipantes) {
@@ -69,11 +73,50 @@ async function cargarDatos() {
         }
 
 
-//   for (const participante of datosGlobales) {
-//
-//
-//
-//     }
+}else{
+//Consulta en SECOP Integrado
+//Consulta en SECOP II
+    alert("Los adjudicatarios se buscan por aproximación del normbre pueden faltar contrato o haberse incluidos homonimos");
+
+    let parts = `UPPER(nom_raz_social_contratista) LIKE "%${personaInput}%"`;
+
+    for (const participante of datosParticipantes) {
+
+
+        parts += ` OR nom_raz_social_contratista = "${participante.nombre_grupo}"`;
+    }
+
+//proveedor_adjudicado, nombre_entidad, valor_del_contrato, tipo_de_contrato, fecha_de_firma, urlproceso
+
+        const sqlSelect3 = `
+            SELECT nom_raz_social_contratista as proveedor_adjudicado , nombre_de_la_entidad as nombre_entidad, valor_contrato as valor_del_contrato, tipo_de_contrato,fecha_de_firma_del_contrato as fecha_de_firma, url_contrato as urlproceso WHERE (${parts})
+            LIMIT ${LIMIT}
+        `;
+  console.log (sqlSelect3);
+        const API_ENDPOINT3 = `https://${WEBREPO}/resource/${DATASETNAME3}.json?$query=${encodeURIComponent(sqlSelect3)}`;
+
+
+
+        try {
+            const response = await fetch(API_ENDPOINT3);
+            const data2 = await response.json();
+
+            datosGlobales = data2;
+
+
+        } catch (error) {
+            console.error('Error al cargar los datos paso 1:', error);
+            tabla.innerHTML = "<tr><td colspan='13'>Error al cargar los datos.</td></tr>";
+        }
+
+
+
+
+
+
+
+}
+//-----
 
 
     if(datosGlobales.length==0) alert("La consulta no dio resultados.");
@@ -142,10 +185,22 @@ function filtrarTabla() {
                 console.error("Error al crear el enlace:", e);
                 link.innerHTML = "Enlace no disponible";
             }
-        } else {
+        } else if (item.urlproceso ) {
+            try {
+                const urlString = item.urlproceso;
+                link.innerHTML = `<a href="${urlString}" target="_blank">Ver Proceso</a>`;
+            } catch (e) {
+                console.error("Error al crear el enlace:", e);
+                link.innerHTML = "Enlace no disponible";
+            }
+        } else  {
+
             link.innerHTML = '';
+
+
         }
-    });
+    }
+    );
 }
 
 
