@@ -28,8 +28,11 @@
 
 <body>
 
+
+
     <div class="container">
         <h1>Consulta Datos de Contratación Colombia (Modalidad Licitación de Obra Pública)- SECOP 2</h1>
+
 
         <!-- Input para los códigos UNSPSC -->
         <label for="unspscCodes">Códigos UNSPSC:</label>
@@ -40,22 +43,39 @@
         <label for="precioMin">Precio Mínimo:</label>
         <input type="number" id="precioMin" value=10000000000 placeholder="Mínimo" onkeyup="filtrarTabla()">
 
+
+
+
         <label for="precioMax">Precio Máximo:</label>
         <input type="number" id="precioMax" placeholder="Máximo" onkeyup="filtrarTabla()">
         <br>
 
 
+        <label for="filtroEntidad">Filtrar por Entidad:</label>
+        <input type="text" id="filtroEntidad" onkeyup="filtrarTabla()" placeholder="Entidad">
+
+
 
         <!-- Contenedor para los filtros -->
 
-        <label for="filtroEntidad">Filtrar por Entidad:</label>
-        <input type="text" id="filtroEntidad" onkeyup="filtrarTabla()" placeholder="Entidad">
 
         <label for="filtroObjeto">Filtrar por Objeto:</label>
         <input type="text" id="filtroObjeto" onkeyup="filtrarTabla()" placeholder="Objeto">
 
+        <label for="ordenar_por">Ordenar resultador por: </label>
+        <select id="opt_ordenar_por" onchange="cargarDatos()">
+            <option value="odrIDProceso">ID Proceso/Más reciente</option>
+            <option value="OrdPresupu">Mayor a menor presupuesto</option>
+            <option value="OrdEntidad">Entidad Alfabeticamente</option>
+        </select>
+
+
 
        <button onclick="cargarDatos()">Aplicar Filtros</button>
+
+<!--    </div>
+
+        <div class="container">-->
 
         <!-- Contenedor para los gráficos -->
         <div class="graficos-container" style="display:none;" id="graficosContainer">
@@ -81,11 +101,9 @@
 
             <h3>Promedio de Presupuesto vs. Promedio Plazo</h3>
             <p id="promedioPresupuestoPlazo"></p>
-
-
-
         </div>
- </div>
+
+<!-- </div>-->
 
 
         <div class="table-container">
@@ -115,7 +133,7 @@
         </table>
 
     </div>
-     <div class="container">
+<!--      <div class="container"> -->
 
         <!-- Botón para regresar al portafolio -->
         <a href="https://e45m.github.io/portfolio/" class="back-button" target="_blank">Regresar al Portafolio</a>

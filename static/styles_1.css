@@ -26,8 +26,8 @@
             border-radius: 4px;
             box-sizing: border-box; }
 
-        button {
-            width: 98%; /* Aumentado para ocupar más espacio */
+        button, select  {
+            width: 30%; /* Aumentado para ocupar más espacio */
             max-width: 1200px;
             margin: 20px auto;
             padding: 10px;
@@ -41,23 +41,27 @@
             transition: background-color 0.3s ease;
 
         }
-        button:hover { background-color: #0056b3; }
+        button:hover, select:hover { background-color: #0056b3; }
         /*#filtros { margin-top: 15px; }*/
 
 
        .table-container {
            width: fit-content
 
-          border-collapse: collapse;
+
+            order-collapse: collapse;
             width: 98%; /* Aumentado para ocupar más espacio */
 
 
             padding: 20px;
 
+            border-radius: 8px;
+
         }
 
         /* Estilos para la tabla */
         table {
+            margin-left: -150px;
 
             border-collapse: collapse;
 

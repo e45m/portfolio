@@ -15,6 +15,10 @@ async function cargarDatos() {
     const unspscCodesInput = document.getElementById('unspscCodes').value;
     const UNSPSC = unspscCodesInput.split(',').map(code => code.trim());
 
+    // const selectOrdenarpor = document.getElementById('ordenar_por');
+    // const resOrdenpor = document.getElementById('opt_ordenar_por');
+    const ordenPor = document.getElementById('opt_ordenar_por').value;
+
     const listaUNSPSC = ' AND (' + UNSPSC.map(code => `codigo_principal_de_categoria LIKE "V1.${code}%"`).join(' OR ') + ')';
 
     const sqlSelect = `
@@ -43,8 +47,25 @@ async function cargarDatos() {
         const response = await fetch(API_ENDPOINT);
         const data = await response.json();
 
-        //datosGlobales = data;
-        datosGlobales= ordenarDataset(data, 'precio_base', 'desc','number');
+        //Ordenar los datos
+        switch(ordenPor){
+
+            case 'odrIDProceso':
+                datosGlobales= data ; //data se ordena asi por el servidor;
+
+                break;
+            case 'OrdPresupu':
+                datosGlobales= ordenarDataset(data, 'precio_base', 'desc','number');
+
+                break;
+            case 'OrdEntidad':
+                datosGlobales= ordenarDataset(data, 'entidad', 'desc','number');
+
+                break;
+
+
+        }
+
 
         filtrarTabla();
         document.getElementById('graficosContainer').style.display = 'flex'; // Mostrar gráficos
@@ -333,6 +354,24 @@ function actualizarGraficos(data) {
 function init() {
   cargarDatos();
 }
+
+// odrIDProceso
+// option value
+// option value
+
+//Seleccion de opciones de ordenamiento
+
+// const selectOrdenarpor = document.getElementById('ordenar_por');
+// const resOrdenpor = document.getElementById('opt_ordenar_por');
+//
+// selectOrdenarpor.addEventListener('change',function(){}
+//
+//
+//
+// );
+
+
+
 
 // document.getElementById('precioMin').onkeyup = filtrarTabla;
 // document.getElementById('precioMax').onkeyup = filtrarTabla;
