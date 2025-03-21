@@ -24,7 +24,7 @@ async function cargarDatos() {
         AND (estado_del_procedimiento LIKE "${ESTADO_LIKE}")
         AND (precio_base>=${PRECIO_BASE})
         AND (estado_de_apertura_del_proceso = "Abierto")
-        ORDER BY LEFT_PAD(SUBSTRING(id_del_proceso, 9),10,'0')  DESC
+        ORDER BY (LEFT_PAD(SUBSTRING(id_del_proceso, 9),7,'0'))  DESC
         LIMIT ${LIMIT}
 
     `;
@@ -43,7 +43,8 @@ async function cargarDatos() {
         const response = await fetch(API_ENDPOINT);
         const data = await response.json();
 
-        datosGlobales = data;
+        //datosGlobales = data;
+        datosGlobales= ordenarDataset(data, 'precio_base', 'desc','number');
 
         filtrarTabla();
         document.getElementById('graficosContainer').style.display = 'flex'; // Mostrar gráficos
@@ -53,6 +54,7 @@ async function cargarDatos() {
         tabla.innerHTML = "<tr><td colspan='13'>Error al cargar los datos.</td></tr>";
     }
 }
+
 
 function filtrarTabla() {
     const tabla = document.getElementById("tablaResultados").getElementsByTagName('tbody')[0];
@@ -137,8 +139,7 @@ function filtrarTabla() {
     });
 }
 
-document.getElementById('precioMin').onkeyup = filtrarTabla;
-document.getElementById('precioMax').onkeyup = filtrarTabla;
+
 
 function actualizarGraficos(data) {
     // Función para destruir los gráficos existentes
@@ -333,8 +334,8 @@ function init() {
   cargarDatos();
 }
 
-document.getElementById('precioMin').onkeyup = filtrarTabla;
-document.getElementById('precioMax').onkeyup = filtrarTabla;
+// document.getElementById('precioMin').onkeyup = filtrarTabla;
+// document.getElementById('precioMax').onkeyup = filtrarTabla;
 
 
 window.onload = init;
