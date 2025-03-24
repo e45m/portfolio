@@ -15,14 +15,16 @@ async function cargarDatos() {
         //loadZIPA();
 
         // const op = await fetch('../data/TM68/op.json');
-       zipa =  loadZIPA_G4();
+       // zipa =  loadZIPA_G4();
 
-        //const zipa = await fetch('../data/TM68/zipa.json');
+        const resp = await fetch('../data/TM68/zipa.json');
+        zipa = resp.jason();
 
      } catch (error) {
         console.error('Error al cargar los datos:', error);
        // tabla.innerHTML = "<tr><td colspan='13'>Error al cargar los datos.</td></tr>";
     }
+
 
 
 
