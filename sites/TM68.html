@@ -21,9 +21,10 @@
     <title>Contrato IDU-348-2020 Trasmilenio av 68 Lote 4 </title>
     <link rel="stylesheet" href="../static/styledash.css">
 
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <!--     <script src="../static/util.js"></script> -->
-<!--    <script src="../static/script_1.js"></script> -->
+   <script src="../static/tmdb.js"></script>
 </head>
 
 <body>
@@ -41,28 +42,33 @@
         <div class="cardContainer">
 
         <div class="tarjeta">
+            <div class="card-title">Total Facturado</div>
+            <div class="kpi-value" id="card-facturado"></div>
+            <div class="kpi-label" id="card-valContrato"></div>
+        </div>
+
+        <div class="tarjeta">
             <div class="card-title">Avance General</div>
-            <div class="kpi-value" id="avance-general">47%</div>
+            <div class="kpi-value" id="avance-general"></div>
             <div class="kpi-label">Porcentaje de Avance</div>
         </div>
 
-
         <div class="tarjeta">
-            <div class="card-title">Km de Troncal construidos</div>
-            <div class="kpi-value" id="variacion-plazo">1.1km</div>
-            <div class="kpi-label">de 1.96 km</div>
+            <div class="card-title">Km de Malla Vial construidos</div>
+            <div class="kpi-value" id="variacion-plazo"></div>
+            <div class="kpi-label">de 11.96 km</div>
         </div>
 
         <div class="tarjeta">
             <div class="card-title">m2 de espacio Público</div>
-            <div class="kpi-value" id="variacion-presupuesto">15022m2</div>
+            <div class="kpi-value" id="variacion-presupuesto"></div>
             <div class="kpi-label">de 30325 m2 totales</div>
         </div>
 
         <div class="tarjeta">
             <div class="card-title">km de Cicloruta</div>
-            <div class="kpi-value" id="empleos-generados">1.3km</div>
-            <div class="kpi-label">de 2km totales</div>
+            <div class="kpi-value" id="cardkmCruta"></div>
+            <div class="kpi-label">de 1.46km totales</div>
         </div>
 
     </div>
@@ -70,26 +76,78 @@
 
         <!-- Contenedor para los gráficos -->
         <div class="graficos-container" style="display:flex;" id="graficosContainer">
-            <div class="grafico">
-                <h3>Facturación desde enero de 2023</h3>
+            <div class="grafico" style='width:50%;'>
+                <h3>Oŕdenes de pago Trasmilenio</h3>
                 <canvas id="lineasFacturacion"></canvas>
             </div>
 
-            <div class="grafico">
+            <div class="grafico" style='width:50%;'>
                 <h3>Avance del proyecto en Porcentaje</h3>
                 <canvas id="lineasAvanceProcent"></canvas>
             </div>
 
-            <div class="grafico">
-                <h3>Numero de empleos</h3>
-                <canvas id="barrasEmpleos"></canvas>
+        </div>
+        <div class="graficos-container" style="display:flex;" id="graficosContainer">
+
+            <div class="grafico" style='width:50%;'>
+               <div class="flex-container">
+                    <div >
+                        <h2>Análisis PMP (Último Informe)</h2>
+                        <table class="info-table" id="evm-table">
+                        <thead>
+                            <tr>
+                            <th>Métrica (PMP)</th>
+                            <th>Fórmula</th>
+                            <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                        </table>
+                    </div>
+                    </div>
             </div>
 
-            <div class="grafico">
-                <h3>km de via construidos desde 2023</h3>
-                <canvas id="lineasKmVia"></canvas>
+            <div class="grafico" style='width:50%;'>
+
+            <section id="goal-completion">
+                <h2>Avance de Metas</h2>
+                <div class="progress-item">
+                    <label>Km de Troncal:</label>
+                    <progress id="troncal-progress" value="0" max="100"></progress>
+                    <span id="troncal-percentage">0%</span>
+                </div>
+                <div class="progress-item">
+                    <label>Km-Carril Malla Vial Arterial:</label>
+                    <progress id="malla-vial-progress" value="0" max="100"></progress>
+                    <span id="malla-vial-percentage">0%</span>
+                </div>
+                <div class="progress-item">
+                    <label>m2 Espacio Público:</label>
+                    <progress id="espacio-publico-progress" value="0" max="100"></progress>
+                    <span id="espacio-publico-percentage">0%</span>
+                </div>
+                <div class="progress-item">
+                    <label>Km de Ciclorruta:</label>
+                    <progress id="ciclorruta-progress" value="0" max="100"></progress>
+                    <span id="ciclorruta-percentage">0%</span>
+                </div>
+                <div class="progress-item">
+                    <label>Puentes Peatonales:</label>
+                    <progress id="puentes-peatonales-progress" value="0" max="100"></progress>
+                    <span id="puentes-peatonales-percentage">0%</span>
+                </div>
+                <div class="progress-item">
+                    <label>Cicloparqueaderos:</label>
+                    <progress id="cicloparqueaderos-progress" value="0" max="100"></progress>
+                    <span id="cicloparqueaderos-percentage">0%</span>
+                </div>
+            </section>
+
             </div>
         </div>
+
 
         <!-- Tarjeta separada para el promedio -->
           <div class="cardContainer">
@@ -103,14 +161,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                    <td>2024-01-15</td>
-                    <td>Retraso debido a condiciones climáticas adversas.</td>
-                    </tr>
-                    <tr>
-                    <td>2024-01-22</td>
-                    <td>Falta de materiales de construcción.</td>
-                    </tr>
+
                 </tbody>
                 </table>
             </div>
