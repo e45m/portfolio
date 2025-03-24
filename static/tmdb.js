@@ -15,7 +15,9 @@ async function cargarDatos() {
         //loadZIPA();
 
         // const op = await fetch('../data/TM68/op.json');
-        const zipa = await fetch('../data/TM68/zipa.json');
+       zipa =  loadZIPA_G4();
+
+        //const zipa = await fetch('../data/TM68/zipa.json');
 
      } catch (error) {
         console.error('Error al cargar los datos:', error);
