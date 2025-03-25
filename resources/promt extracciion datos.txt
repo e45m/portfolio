@@ -1,0 +1,45 @@
+Eres un experto en extracción de datos. Analiza los siguientes documentos de texto, que son informes de avance de un contrato de construcción. Extrae la información clave de cada documento y genera un registro  por cada documento, siguiendo la siguientes columnas: Contenido:
+"informeFecha": "AAAA-MM-DD",
+"porcentajePlaneado": "XX,XX%",
+"porcentajeEjecutado": "XX,XX%",
+"variacionPorcentaje": "XX,XX%",
+"valorInicial": "XXXXXXXXXXXX,XX",
+"totalContrato": "XXXXXXXXXXXX,XX",
+"valorPagado": "XXXXXXXXXXXX,XX",
+"plazoInicial": "XXXX",
+"plazoActualizado": "XXXX",
+"fechaIniciacion": "AAAA-MM-DD",
+"fechaTerminacion": "AAAA-MM-DD",
+"empleosGenerados": XXX,
+"troncalKmPlaneado": "X,XX",
+"troncalKmEjecutado": "X,XX",
+"mallaVialKmCarrilPlaneado": "X,XX",
+"mallaVialKmCarrilEjecutado": "X,XX",
+"espacioPublicoM2Planeado": "XXXXX,XX",
+"espacioPublicoM2Ejecutado": "XXXXX,XX",
+"ciclorutaKmPlaneado": "X,XX",
+"ciclorutaKmEjecutado": "X,XX",
+"puentesPeatonalesPlaneado": "X",
+"puentesPeatonalesEjecutado": "X",
+"cicloparqueaderosPlaneado": "XXX",
+"cicloparqueaderosEjecutado": "XXX",
+"nombreArchivo": "Nombre del archivo",
+"observacionesProble": "Texto con observaciones y problemas (si existen)"
+Instrucciones adicionales:
+Formato de números:
+No uses separadores de miles.
+Usa la coma (,) como separador decimal.
+Formato de fechas:
+Usa el formato AAAA-MM-DD (año-mes-día).
+Información del contratista:
+Extrae solo la información correspondiente al contratista, omitiendo los datos de la interventoría.
+Valores faltantes:
+Si un valor no está presente en el documento, usa null para ese campo.
+Precisión:
+Asegúrate de extraer los valores con la mayor precisión posible.
+Nombre del archivo:
+El nombre del archivo es como lo denominas en el contexto.
+Observaciones y problemas:
+Si hay una sección de "Observaciones" o "Problemas" en el informe, extrae el texto relevante. Si no hay una sección específica, puedes tratar de extraer cualquier información relevante que parezca indicar problemas o retrasos.
+Salida:
+Devuelbe una tabla con base en la información donde cada registro corresponde a un informe. Debes considerar las 43 fuentes.
