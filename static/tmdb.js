@@ -122,7 +122,7 @@ function actualizarCards(){
      document.getElementById('label-variacion-presupuesto').textContent = 'de '+lastRecord["espacioPublicoM2Planeado"] +'m2 totales';
 
      document.getElementById('cardkmCruta').textContent = lastRecord["ciclorutaKmEjecutado"];
-     document.getElementById('labelkmCruta').textContent = 'de ' + lastRecord["ciclorutaKmEjecutado"] +'km totales';
+     document.getElementById('labelkmCruta').textContent = 'de ' + lastRecord["ciclorutaKmPlaneado"] +'km totales';
 
     }
 }
