@@ -90,7 +90,7 @@
             margin: 20px auto;
             padding: 10px;
 
-            background-color: #007bff;
+            background-color: gray;
             color: white;
             /*padding: 10px 15px;*/
             border: none;
@@ -102,7 +102,7 @@
 
 
 
- button:hover, select:hover { background-color: #0056b3; }
+ button:hover, select:hover { background-color: darkgray; }
         /*#filtros { margin-top: 15px; }*/
 
 /* Estilos para tablas -No se usan */

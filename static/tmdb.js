@@ -9,6 +9,13 @@ let zipa=[];
 
 async function cargarDatos() {
 
+let grupo =  document.getElementById('selectGrupo').value;
+
+
+
+  // let grupo = '4';
+
+
 
 
     try {
@@ -17,7 +24,7 @@ async function cargarDatos() {
         // const op = await fetch('../data/TM68/op.json');
        // zipa =  loadZIPA_G4();
 
-        const resp = await fetch('../data/TM68/zipa.json');
+        const resp = await fetch(`../data/TM68/zipa_g${grupo}.json`);
         zipa = await resp.json();
 
      } catch (error) {
@@ -95,16 +102,29 @@ function parsePercentage(percentageString) {
 
 function actualizarCards(){
 
-     const valCto = '$255.515.171.695,00';
-     document.getElementById('card-facturado').textContent = '$113.162.133.149,00';
-     document.getElementById('card-valContrato').textContent = 'de un  valor total de ' + valCto;
 
-     document.getElementById('avance-general').textContent = '59.40%';
-     document.getElementById('variacion-plazo').textContent = '8.36';
-     document.getElementById('variacion-presupuesto').textContent = '15122,21';
-     document.getElementById('cardkmCruta').textContent = '1.3';
+      const dataLength = zipa.length;
+
+    if (dataLength > 0) {
+        const lastRecord = zipa[dataLength - 1];
 
 
+     const valCto = lastRecord["totalContrato"];
+     document.getElementById('card-facturado').textContent = lastRecord["valorPagado"];
+     document.getElementById('label-facturado').textContent = 'de un  valor total de ' + valCto;
+
+     document.getElementById('avance-general').textContent = lastRecord["porcentajeEjecutado"];
+
+     document.getElementById('variacion-plazo').textContent = lastRecord["mallaVialKmCarrilEjecutado"];
+     document.getElementById('label-variacion-plazo').textContent = 'de ' + lastRecord["mallaVialKmCarrilPlaneado"] + 'km';
+
+     document.getElementById('variacion-presupuesto').textContent = lastRecord["espacioPublicoM2Ejecutado"];
+     document.getElementById('label-variacion-presupuesto').textContent = 'de '+lastRecord["espacioPublicoM2Planeado"] +'m2 totales';
+
+     document.getElementById('cardkmCruta').textContent = lastRecord["ciclorutaKmEjecutado"];
+     document.getElementById('labelkmCruta').textContent = 'de ' + lastRecord["ciclorutaKmEjecutado"] +'km totales';
+
+    }
 }
 
 
