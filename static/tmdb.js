@@ -205,18 +205,17 @@ function generarColorAleatorio() {
         scales: {
 
      x: {
-         type:'linear',
+                        type: 'time',
+                        time: {
+                            unit: 'month'
+                        },
+                        title: {
+                            display: true,
+                            text: 'Fecha'
+                        }
+                    },
 
-          beginAtZero: false,
-          ticks: {
-            callback:function(value, index, values){
-                return new Date(value).toLocaleDateString();
 
-            },
-            autoSkip: true,
-            maxTicksLimit: 10
-          }
-        },
         y: {
           beginAtZero: false,
           ticks: {
@@ -275,18 +274,15 @@ function generarColorAleatorio() {
         scales: {
 
      x: {
-         type:'linear',
-
-          beginAtZero: false,
-          ticks: {
-            callback:function(value, index, values){
-                return new Date(value).toLocaleDateString();
-
-            },
-            autoSkip: true,
-            maxTicksLimit: 10
-          }
-        },
+                        type: 'time',
+                        time: {
+                            unit: 'month'
+                        },
+                        title: {
+                            display: true,
+                            text: 'Fecha'
+                        }
+                    },
         y: {
           beginAtZero: false,
           ticks: {
