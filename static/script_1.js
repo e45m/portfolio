@@ -46,20 +46,21 @@ async function cargarDatos() {
     try {
         const response = await fetch(API_ENDPOINT);
         const data = await response.json();
+        data1 = interpolaFechas(data);
 
         //Ordenar los datos
         switch(ordenPor){
 
             case 'odrIDProceso':
-                datosGlobales= data ; //data se ordena asi por el servidor;
+                datosGlobales= data1 ; //data se ordena asi por el servidor;
 
                 break;
             case 'OrdPresupu':
-                datosGlobales= ordenarDataset(data, 'precio_base', 'desc','number');
+                datosGlobales= ordenarDataset(data1, 'precio_base', 'desc','number');
 
                 break;
             case 'OrdEntidad':
-                datosGlobales= ordenarDataset(data, 'entidad', 'desc','number');
+                datosGlobales= ordenarDataset(data1, 'entidad', 'desc','number');
 
                 break;
 
@@ -75,6 +76,70 @@ async function cargarDatos() {
         tabla.innerHTML = "<tr><td colspan='13'>Error al cargar los datos.</td></tr>";
     }
 }
+
+
+
+function extraeNumId(idString){
+
+    //ejemplo: CO1.REQ.7954546 -> 7954546
+    const partes = idString.split('.');
+    return parseInt(partes[2], 10);//retorna un numero
+
+}
+
+
+function interpolaFechas(data){
+
+    const baseId = 6013375;
+    const baseFecha = new Date('2024-10-24');
+    const kb=12453;
+    // let fehelp= baseFecha;
+
+
+       data.forEach(item=>{
+
+       item.ntcNumero = extraeNumId(item.id_del_proceso);
+        console.log(item.id_del_proceso);
+        // console.log(item.ntcNumero);
+
+
+
+       if (item.fecha_de_publicacion_del == undefined) {
+
+           const mdays = ((item.ntcNumero - baseId)/kb);
+
+           let fehelp = new Date('2024-10-24');
+
+           fehelp.setDate(baseFecha.getDate()+mdays);
+
+        // 3. Formatear la fecha resultante de nuevo a "dd-mm-aaaa"
+            const nuevoDia = String(fehelp.getDate()).padStart(2, '0');
+            const nuevoMes = String(fehelp.getMonth() + 1).padStart(2, '0'); // getMonth() es base 0
+            const nuevoAno = String(fehelp.getFullYear());
+
+
+
+           item.fecha_de_publicacion_del = `${nuevoMes}/${nuevoDia}/${nuevoAno}`;
+           console.log(item.fecha_de_publicacion_del);
+
+
+
+
+
+        }
+
+    });
+    // let tmpdata = ordenarDataset(data, 'ntcNumero', 'desc','number'); //ordena de más reciente a más antiguo
+
+
+    return data;
+
+
+
+}
+
+
+
 
 
 function filtrarTabla() {
@@ -107,6 +172,10 @@ function filtrarTabla() {
             day: 'numeric'
         });
     }
+
+
+
+
 
     function formatPrice(price) {
         if (!price) return '';
@@ -242,11 +311,13 @@ function actualizarGraficos(data) {
         return fechaPublicacion >= fechaHace12Meses;
     });
 
+
     datosUltimos12Meses.forEach(item => {
         const fecha = item.fecha_de_publicacion_del.substring(0, 7); // Año-Mes
         const presupuesto = parseFloat(item.precio_base) || 0;
         presupuestosPorTiempo[fecha] = (presupuestosPorTiempo[fecha] || 0) + presupuesto;
     });
+
 
     const tiempos = Object.keys(presupuestosPorTiempo).sort();
     const presupuestosTiempo = Object.values(presupuestosPorTiempo);
