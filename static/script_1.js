@@ -60,7 +60,7 @@ async function cargarDatos() {
 
                 break;
             case 'OrdEntidad':
-                datosGlobales= ordenarDataset(data1, 'entidad', 'desc','number');
+                datosGlobales= ordenarDataset(data1, 'entidad');
 
                 break;
 
@@ -99,7 +99,7 @@ function interpolaFechas(data){
        data.forEach(item=>{
 
        item.ntcNumero = extraeNumId(item.id_del_proceso);
-        console.log(item.id_del_proceso);
+        // console.log(item.id_del_proceso);
         // console.log(item.ntcNumero);
 
 
@@ -120,10 +120,31 @@ function interpolaFechas(data){
 
 
            item.fecha_de_publicacion_del = `${nuevoMes}/${nuevoDia}/${nuevoAno}`;
-           console.log(item.fecha_de_publicacion_del);
+           // console.log(item.fecha_de_publicacion_del);
+
+
+        }else {
 
 
 
+           let fehelpx = new Date(item.fecha_de_publicacion_del);
+
+
+
+        // 3. Formatear la fecha resultante de nuevo a "dd-mm-aaaa"
+            const nuevoDia = String(fehelpx.getDate()).padStart(2, '0');
+            const nuevoMes = String(fehelpx.getMonth() + 1).padStart(2, '0'); // getMonth() es base 0
+            const nuevoAno = String(fehelpx.getFullYear());
+
+
+
+           item.fecha_de_publicacion_del = `${nuevoMes}/${nuevoDia}/${nuevoAno}`;
+           // console.log(item.fecha_de_publicacion_del);
+
+
+
+
+            // console.log(item.fecha_de_publicacion_del);
 
 
         }
@@ -299,7 +320,8 @@ function actualizarGraficos(data) {
 
     // 2. Presupuestos a lo Largo del Tiempo (Gráfico de Líneas)
     const presupuestosPorTiempo = {};
-    const datosConFecha = data.filter(item => item.fecha_de_publicacion_del); // Filtrar los datos sin fecha
+    // const datosConFecha = data.filter(item => item.fecha_de_publicacion_del); // Filtrar los datos sin fecha
+    const datosConFecha = data; // Filtrar los datos sin fecha
 
     // Obtener la fecha de hace 12 meses
     const fechaHace12Meses = new Date();
@@ -313,14 +335,19 @@ function actualizarGraficos(data) {
 
 
     datosUltimos12Meses.forEach(item => {
-        const fecha = item.fecha_de_publicacion_del.substring(0, 7); // Año-Mes
+        const fecha = item.fecha_de_publicacion_del.substring(6, 10)+'-'+item.fecha_de_publicacion_del.substring(0, 2)
+        ;//+'-'+item.fecha_de_publicacion_del.substring(3, 5); // Año-Mes-dia
         const presupuesto = parseFloat(item.precio_base) || 0;
-        presupuestosPorTiempo[fecha] = (presupuestosPorTiempo[fecha] || 0) + presupuesto;
+        presupuestosPorTiempo[fecha] = (presupuestosPorTiempo[fecha] || 0) + presupuesto; //Acumula para cada categoria
     });
 
 
-    const tiempos = Object.keys(presupuestosPorTiempo).sort();
-    const presupuestosTiempo = Object.values(presupuestosPorTiempo);
+    const presupuestosPorTiempoOrdenado = Object.fromEntries(
+    Object.entries(presupuestosPorTiempo).sort()
+);
+
+    const tiempos = Object.keys(presupuestosPorTiempoOrdenado);
+    const presupuestosTiempo = Object.values(presupuestosPorTiempoOrdenado);
 
     // Destruir la instancia anterior del gráfico
     destroyChart(presupuestosTiempoChart);
@@ -355,15 +382,29 @@ function actualizarGraficos(data) {
     // 3. Promedio de Presupuesto vs. Plazo (Tarjeta)
     let totalPresupuesto = 0;
     let totalPlazo = 0;
+    let nplazo = 0;
+
     data.forEach(item => {
         totalPresupuesto += parseFloat(item.precio_base) || 0;
-        totalPlazo += parseFloat(item.duracion) || 0;
+
+        const utiempo = item.unidad_de_duracion;
+        let fplazo =  1/30;
+        if (utiempo == 'Mes(es)'){
+            fplazo = 1;
+
+        }
+
+
+
+        totalPlazo += fplazo*(item.duracion) || 0;
+
     });
 
     const promedioPresupuesto = data.length > 0 ? totalPresupuesto / data.length : 0;
+
     const promedioPlazo = data.length > 0 ? totalPlazo / data.length : 0;
 
-    document.getElementById('promedioPresupuestoPlazo').textContent = `Promedio Presupuesto: ${promedioPresupuesto.toLocaleString('es-CO', { style: 'currency', currency: 'COP', minimumFractionDigits: 0 })} - Promedio Plazo: ${promedioPlazo.toFixed(2)} días`;
+    document.getElementById('promedioPresupuestoPlazo').textContent = `Promedio Presupuesto: ${promedioPresupuesto.toLocaleString('es-CO', { style: 'currency', currency: 'COP', minimumFractionDigits: 0 })} - Promedio Plazo: ${promedioPlazo.toFixed(1)} meses`;
 
     // 4. Número de Procesos por Tipo de Trabajo (UNSPSC) (Gráfico de Pastel)
     const procesosPorUnspsc = {};
