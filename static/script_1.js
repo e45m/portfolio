@@ -456,7 +456,7 @@ function actualizarGraficos(data) {
             responsive: true,
             maintainAspectRatio: false,
             plugins: {
-                legend: { display: false },
+                legend: { display: true },
                 title: { display: false }
             }
         }
