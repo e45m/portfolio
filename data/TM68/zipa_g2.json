@@ -12,20 +12,20 @@
         "fechaIniciacion":"2020-06-26",
         "fechaTerminacion":"2030-02-25",
         "empleosGenerados":87,
-        "troncalKmPlaneado":null,
-        "troncalKmEjecutado":null,
-        "mallaVialKmCarrilPlaneado":null,
-        "mallaVialKmCarrilEjecutado":null,
-        "espacioPublicoM2Planeado":null,
-        "espacioPublicoM2Ejecutado":null,
-        "ciclorutaKmPlaneado":null,
-        "ciclorutaKmEjecutado":null,
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "troncalKmPlaneado":"0",
+        "troncalKmEjecutado":"0",
+        "mallaVialKmCarrilPlaneado":"0",
+        "mallaVialKmCarrilEjecutado":"0",
+        "espacioPublicoM2Planeado":"0",
+        "espacioPublicoM2Ejecutado":"0",
+        "ciclorutaKmPlaneado":"0",
+        "ciclorutaKmEjecutado":"0",
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2020-11-23",
@@ -40,20 +40,20 @@
         "fechaIniciacion":"2020-06-26",
         "fechaTerminacion":"2030-02-25",
         "empleosGenerados":61,
-        "troncalKmPlaneado":null,
-        "troncalKmEjecutado":null,
-        "mallaVialKmCarrilPlaneado":null,
-        "mallaVialKmCarrilEjecutado":null,
-        "espacioPublicoM2Planeado":null,
-        "espacioPublicoM2Ejecutado":null,
-        "ciclorutaKmPlaneado":null,
-        "ciclorutaKmEjecutado":null,
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "troncalKmPlaneado":"0",
+        "troncalKmEjecutado":"0",
+        "mallaVialKmCarrilPlaneado":"0",
+        "mallaVialKmCarrilEjecutado":"0",
+        "espacioPublicoM2Planeado":"0",
+        "espacioPublicoM2Ejecutado":"0",
+        "ciclorutaKmPlaneado":"0",
+        "ciclorutaKmEjecutado":"0",
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-02-22",
@@ -81,7 +81,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-03-29",
@@ -109,7 +109,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-04-26",
@@ -137,7 +137,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-05-31",
@@ -165,7 +165,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-07-26",
@@ -193,7 +193,7 @@
         "cicloparqueaderosPlaneado":1.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-08-30",
@@ -249,7 +249,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-01-31",
@@ -277,7 +277,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-03-28",
@@ -305,7 +305,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-06-06",
@@ -333,7 +333,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-06-27",
@@ -361,7 +361,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-07-25",
@@ -389,7 +389,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-08-29",
@@ -417,7 +417,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-09-26",
@@ -445,7 +445,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-10-31",
@@ -473,7 +473,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-11-28",
@@ -501,7 +501,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-12-26",
@@ -529,7 +529,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-01-30",
@@ -557,7 +557,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-03-27",
@@ -585,7 +585,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-04-24",
@@ -613,7 +613,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-05-29",
@@ -641,7 +641,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-06-26",
@@ -669,7 +669,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-07-31",
@@ -697,7 +697,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-08-28",
@@ -725,7 +725,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-09-25",
@@ -809,7 +809,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-12-25",
@@ -837,7 +837,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-02-26",
@@ -865,7 +865,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-03-25",
@@ -893,7 +893,7 @@
         "cicloparqueaderosPlaneado":300.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-04-29",
@@ -1148,10 +1148,10 @@
         "observacionesProble":"Del porcentaje (%) de variaci\u00f3n presentado, el -28,15% obedece al general del contrato y el -34,56% en etapa de construcci\u00f3n. En etapa de construcci\u00f3n es imputable al contratista el -27,03% en etapa de construcci\u00f3n, 22,01% en etapa general y el 6,33% obedece a entregas prediales, gestiones ante terceros y recursos propios. \u2013 Plan de Contingencia: La firma Interventora radico a la Entidad, el inicio del Proceso Administrativo Sancionatorio con radicado 202452601848992, por la no entrega del plan de contingencia and se dio tramite en la Entidad con el radicado 202434600339913. Luego de la revisi\u00f3n de a direcci\u00f3n General del IDU esta informo que al estar en el proceso de prorroga este proceso Sancionatorio no aplicaba por lo anterior se desisti\u00f3 del mismo de acuerdo con la instrucci\u00f3n de la DG. En cuanto a la pr\u00f3rroga; la firma Interventora radico a la Entidad, la solicitud de pr\u00f3rroga del contrato 346-2020 bajo radicado No. 202452602128672, el mismo se encuentra en tr\u00e1mite con la comunicaci\u00f3n 202400000340773"
     },
     {
-        "informeFecha":"2025-02-24",
-        "porcentajePlaneado":"83,86%",
-        "porcentajeEjecutado":"56,18%",
-        "variacionPorcentaje":"-27,68%",
+        "informeFecha":"2025-03-31",
+        "porcentajePlaneado":"60,9%",
+        "porcentajeEjecutado":"61,25%",
+        "variacionPorcentaje":"0,35%",
         "valorInicial":"$292.993.429.408,00",
         "totalContrato":"$292.993.429.408,00",
         "valorPagado":"$85.340.362.162,00",
@@ -1163,16 +1163,16 @@
         "troncalKmPlaneado":"1,78",
         "troncalKmEjecutado":"1,43",
         "mallaVialKmCarrilPlaneado":"14,3",
-        "mallaVialKmCarrilEjecutado":"5,33",
+        "mallaVialKmCarrilEjecutado":"7.14",
         "espacioPublicoM2Planeado":"43083,23",
-        "espacioPublicoM2Ejecutado":11286.0,
+        "espacioPublicoM2Ejecutado":"19451,97",
         "ciclorutaKmPlaneado":"1,23",
-        "ciclorutaKmEjecutado":"0,31",
+        "ciclorutaKmEjecutado":"0,57",
         "puentesPeatonalesPlaneado":4.0,
         "puentesPeatonalesEjecutado":"0",
         "cicloparqueaderosPlaneado":0.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":"Del porcentaje (%) de variaci\u00f3n presentado, el -27,68% obedece al general del contrato y el -34,01% en etapa de construcci\u00f3n. En etapa de construcci\u00f3n es imputable al contratista el -26,46% en etapa de construcci\u00f3n, 20,54% en etapa general y el 6,0% obedece a entregas prediales, gestiones ante terceros y recursos propios. \u2013 Plan de Contingencia: La firma Interventora radico a la Entidad, el inicio del Proceso Administrativo Sancionatorio con radicado 202452601848992, por la no entrega del plan de contingencia y se dio tramite en la Entidad con el radicado 202434600339913. Luego de la revisi\u00f3n de a direcci\u00f3n General del IDU esta informo que al estar en el proceso de prorroga este proceso Sancionatorio no aplicaba por lo anterior se desisti\u00f3 del mismo de acuerdo con la instrucci\u00f3n de la DG. En cuanto a la pr\u00f3rroga; la firma Interventora radico a la Entidad, la solicitud de pr\u00f3rroga del contrato 346-2020 bajo radicado No. 202452602128672, el mismo se encuentra en tr\u00e1mite con la comunicaci\u00f3n 202534600043483 el contrato se prorrogo el 25 de febrero de 2025."
+        "observacionesProble":"A la fecha de corte del presente informe se están presentando desviaciones positivas - del (0,39%), en la etapa de construcción y del (0,35%) en el total del proyecto, de acuerdo con la línea base 9. Para la semana del 7 de abril se tienen planteado continuar con las actividades de Excavación, e instalación de acero de refuerzo en el Puente peatonal número 4. Y continuar con el vaciado de concreto para tablero del módulo número 2 del Box culvert canal Fucha, adicionalmente se suscribió la modificación No 12 rete garantías) para el contrato de Obra 346 – 2020 el 2 de abril de 202"
     }
 ]

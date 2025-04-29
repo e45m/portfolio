@@ -25,7 +25,7 @@
         "cicloparqueaderosPlaneado":200,
         "cicloparqueaderosEjecutado":0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2020-11-30",
@@ -935,7 +935,7 @@
         "plazoActualizado":3480,
         "fechaIniciacion":"2020-06-12",
         "fechaTerminacion":"2030-02-11",
-        "empleosGenerados":null,
+        "empleosGenerados":"0",
         "troncalKmPlaneado":"1,96",
         "troncalKmEjecutado":"1,34",
         "mallaVialKmCarrilPlaneado":"11,96",
@@ -949,7 +949,7 @@
         "cicloparqueaderosPlaneado":200,
         "cicloparqueaderosEjecutado":0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2025-02-24",
@@ -978,5 +978,33 @@
         "cicloparqueaderosEjecutado":0,
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"El proyecto a la fecha se encuentra en etapa de construcci\u00f3n con un avance del total del contrato igual a 65,69%. Se evidencia ejecuci\u00f3n de actividades en la construcci\u00f3n del deprimido peatonal de la calle 13; construcci\u00f3n de carriles mixtos en el costado occidental. En la calle 19 se encuentra el inicio de la construcci\u00f3n de la estaci\u00f3n con dos vagones. Tambi\u00e9n la construcci\u00f3n de la cimentaci\u00f3n del puente peatonal que dar\u00e1 ingreso a la Estaci\u00f3n avenida La Esperanza y actividades en el box culvert costado oriental."
+    },
+    {
+        "informeFecha":"2025-03-31",
+        "porcentajePlaneado":"69,75%",
+        "porcentajeEjecutado":"61,09%",
+        "variacionPorcentaje":"-8,66%",
+        "valorInicial":"$247.625.771.607,00",
+        "totalContrato":"$255.515.171.695,00",
+        "valorPagado":"$114.277.264.709,00",
+        "plazoInicial":3480,
+        "plazoActualizado":3720,
+        "fechaIniciacion":"2020-06-12",
+        "fechaTerminacion":"2030-10-11",
+        "empleosGenerados":548.0,
+        "troncalKmPlaneado":"1,96",
+        "troncalKmEjecutado":"1,34",
+        "mallaVialKmCarrilPlaneado":"11,96",
+        "mallaVialKmCarrilEjecutado":"8,36",
+        "espacioPublicoM2Planeado":30358,
+        "espacioPublicoM2Ejecutado":"15122,21",
+        "ciclorutaKmPlaneado":"1,46",
+        "ciclorutaKmEjecutado":"1,34",
+        "puentesPeatonalesPlaneado":2,
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":0,
+        "cicloparqueaderosEjecutado":0,
+        "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
+        "observacionesProble":"El proyecto a la fecha se encuentra en etapa de construcción con un avance del total del contrato igual a 61,09%. Se evidencia ejecución de actividades en la construcción del deprimido peatonal de la calle 13; construcción de carriles mixtos en el costado occidental. También la construcción de la cimentación del puente peatonal que dará ingreso a la Estación avenida La Esperanza y la fundida de la losa del box culvert costado oriental."
     }
 ]

@@ -12,20 +12,20 @@
         "fechaIniciacion":"2020-06-18",
         "fechaTerminacion":"2029-02-17",
         "empleosGenerados":37,
-        "troncalKmPlaneado":null,
-        "troncalKmEjecutado":null,
-        "mallaVialKmCarrilPlaneado":null,
-        "mallaVialKmCarrilEjecutado":null,
-        "espacioPublicoM2Planeado":null,
-        "espacioPublicoM2Ejecutado":null,
-        "ciclorutaKmPlaneado":null,
-        "ciclorutaKmEjecutado":null,
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "troncalKmPlaneado":"0",
+        "troncalKmEjecutado":"0",
+        "mallaVialKmCarrilPlaneado":"0",
+        "mallaVialKmCarrilEjecutado":"0",
+        "espacioPublicoM2Planeado":"0",
+        "espacioPublicoM2Ejecutado":"0",
+        "ciclorutaKmPlaneado":"0",
+        "ciclorutaKmEjecutado":"0",
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-02-22",
@@ -48,12 +48,12 @@
         "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0",
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-03-29",
@@ -76,12 +76,12 @@
         "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0",
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-07-26",
@@ -104,12 +104,12 @@
         "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0",
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-08-30",
@@ -132,12 +132,12 @@
         "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0",
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-01-31",
@@ -160,12 +160,12 @@
         "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0",
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-03-28",
@@ -188,12 +188,12 @@
         "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0",
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-04-25",
@@ -216,12 +216,12 @@
         "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0",
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-05-30",
@@ -244,12 +244,12 @@
         "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0",
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-06-27",
@@ -272,12 +272,12 @@
         "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0",
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-07-25",
@@ -300,12 +300,12 @@
         "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0",
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-08-29",
@@ -328,12 +328,12 @@
         "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0",
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-09-26",
@@ -354,14 +354,14 @@
         "mallaVialKmCarrilEjecutado":"0",
         "espacioPublicoM2Planeado":7120.0,
         "espacioPublicoM2Ejecutado":"0",
-        "ciclorutaKmPlaneado":null,
-        "ciclorutaKmEjecutado":null,
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
-        "nombreArchivo":null,
-        "observacionesProble":null
+        "ciclorutaKmPlaneado":"0",
+        "ciclorutaKmEjecutado":"0",
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
+        "nombreArchivo":"0",
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-10-31",
@@ -386,10 +386,10 @@
         "ciclorutaKmEjecutado":"0,14",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"0",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-11-28",
@@ -414,10 +414,10 @@
         "ciclorutaKmEjecutado":"0,14",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"0",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-12-26",
@@ -442,10 +442,10 @@
         "ciclorutaKmEjecutado":"0,14",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"0",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-01-30",
@@ -470,10 +470,10 @@
         "ciclorutaKmEjecutado":"0,14",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"0",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-02-27",
@@ -498,10 +498,10 @@
         "ciclorutaKmEjecutado":"0,14",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"0",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-03-27",
@@ -517,19 +517,19 @@
         "fechaTerminacion":"2029-02-17",
         "empleosGenerados":496,
         "troncalKmPlaneado":"1,04",
-        "troncalKmEjecutado":null,
+        "troncalKmEjecutado":"0",
         "mallaVialKmCarrilPlaneado":"7,47",
-        "mallaVialKmCarrilEjecutado":null,
+        "mallaVialKmCarrilEjecutado":"0",
         "espacioPublicoM2Planeado":7120.0,
-        "espacioPublicoM2Ejecutado":null,
+        "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
-        "ciclorutaKmEjecutado":null,
+        "ciclorutaKmEjecutado":"0",
         "puentesPeatonalesPlaneado":3.0,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-04-24",
@@ -545,19 +545,19 @@
         "fechaTerminacion":"2029-02-17",
         "empleosGenerados":512,
         "troncalKmPlaneado":"1,04",
-        "troncalKmEjecutado":null,
+        "troncalKmEjecutado":"0",
         "mallaVialKmCarrilPlaneado":"7,47",
-        "mallaVialKmCarrilEjecutado":null,
+        "mallaVialKmCarrilEjecutado":"0",
         "espacioPublicoM2Planeado":7120.0,
-        "espacioPublicoM2Ejecutado":null,
+        "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
-        "ciclorutaKmEjecutado":null,
+        "ciclorutaKmEjecutado":"0",
         "puentesPeatonalesPlaneado":3.0,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-05-29",
@@ -573,19 +573,19 @@
         "fechaTerminacion":"2029-02-17",
         "empleosGenerados":521,
         "troncalKmPlaneado":"1,04",
-        "troncalKmEjecutado":null,
+        "troncalKmEjecutado":"0",
         "mallaVialKmCarrilPlaneado":"7,47",
-        "mallaVialKmCarrilEjecutado":null,
+        "mallaVialKmCarrilEjecutado":"0",
         "espacioPublicoM2Planeado":7120.0,
-        "espacioPublicoM2Ejecutado":null,
+        "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
-        "ciclorutaKmEjecutado":null,
+        "ciclorutaKmEjecutado":"0",
         "puentesPeatonalesPlaneado":3.0,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-06-26",
@@ -601,19 +601,19 @@
         "fechaTerminacion":"2029-02-17",
         "empleosGenerados":537,
         "troncalKmPlaneado":"1,04",
-        "troncalKmEjecutado":null,
+        "troncalKmEjecutado":"0",
         "mallaVialKmCarrilPlaneado":"7,47",
-        "mallaVialKmCarrilEjecutado":null,
+        "mallaVialKmCarrilEjecutado":"0",
         "espacioPublicoM2Planeado":7120.0,
-        "espacioPublicoM2Ejecutado":null,
+        "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"1,28",
-        "ciclorutaKmEjecutado":null,
+        "ciclorutaKmEjecutado":"0",
         "puentesPeatonalesPlaneado":3.0,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-07-31",
@@ -638,8 +638,8 @@
         "ciclorutaKmEjecutado":"0,33",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"0",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Se encuentra en fase de ejecuci\u00f3n, construcci\u00f3n super estructura puente vehicular Occidental, verificaci\u00f3n soldaduras viga met\u00e1lica puente conectante Transmilenio, construcci\u00f3n espacio publico sector Salitre Greco y Traslado de redes costado Occidental."
     },
@@ -665,11 +665,11 @@
         "ciclorutaKmPlaneado":"1,28",
         "ciclorutaKmEjecutado":"0,33",
         "puentesPeatonalesPlaneado":3.0,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-10-30",
@@ -694,10 +694,10 @@
         "ciclorutaKmEjecutado":"0,36",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"2,7",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-11-27",
@@ -722,10 +722,10 @@
         "ciclorutaKmEjecutado":"0,36",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"2,79",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-12-25",
@@ -750,10 +750,10 @@
         "ciclorutaKmEjecutado":"0,43",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"2,69",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-02-26",
@@ -778,10 +778,10 @@
         "ciclorutaKmEjecutado":"0,29",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"2,88",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-03-25",
@@ -806,10 +806,10 @@
         "ciclorutaKmEjecutado":"0,43",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"2,93",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-04-29",
@@ -834,10 +834,10 @@
         "ciclorutaKmEjecutado":"0,43",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"2,95",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-05-27",
@@ -862,10 +862,10 @@
         "ciclorutaKmEjecutado":"0,43",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"2,96",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-06-24",
@@ -890,10 +890,10 @@
         "ciclorutaKmEjecutado":"0,43",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"2,97",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-07-29",
@@ -918,10 +918,10 @@
         "ciclorutaKmEjecutado":"0,43",
         "puentesPeatonalesPlaneado":3.0,
         "puentesPeatonalesEjecutado":"2,98",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-09-02",
@@ -946,10 +946,10 @@
         "ciclorutaKmEjecutado":"0,8",
         "puentesPeatonalesPlaneado":2.0,
         "puentesPeatonalesEjecutado":"2",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-09-30",
@@ -974,10 +974,10 @@
         "ciclorutaKmEjecutado":"0,8",
         "puentesPeatonalesPlaneado":2.0,
         "puentesPeatonalesEjecutado":"2",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-12-02",
@@ -1002,10 +1002,10 @@
         "ciclorutaKmEjecutado":"0,8",
         "puentesPeatonalesPlaneado":2.0,
         "puentesPeatonalesEjecutado":"1",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-12-30",
@@ -1030,10 +1030,10 @@
         "ciclorutaKmEjecutado":"0,8",
         "puentesPeatonalesPlaneado":2.0,
         "puentesPeatonalesEjecutado":"1",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato de Interventor\u00eda en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2025-01-27",
@@ -1058,10 +1058,10 @@
         "ciclorutaKmEjecutado":"0,8",
         "puentesPeatonalesPlaneado":2.0,
         "puentesPeatonalesEjecutado":"1",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":""
     },
     {
         "informeFecha":"2025-02-24",
@@ -1086,9 +1086,38 @@
         "ciclorutaKmEjecutado":"0,8",
         "puentesPeatonalesPlaneado":2.0,
         "puentesPeatonalesEjecutado":"1",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":""
+    },
+
+    {
+        "informeFecha":"2025-03-31",
+        "porcentajePlaneado":"93,7%",
+        "porcentajeEjecutado":"89,09%",
+        "variacionPorcentaje":"-4,61%",
+        "valorInicial":"$208.086.098.930,00",
+        "totalContrato":"$224.004.424.873,00",
+        "valorPagado":"$175.871.253.071,00",
+        "plazoInicial":3120,
+        "plazoActualizado":3120,
+        "fechaIniciacion":"2020-06-18",
+        "fechaTerminacion":"2029-09-17",
+        "empleosGenerados":202,
+        "troncalKmPlaneado":"1,04",
+        "troncalKmEjecutado":"0,85",
+        "mallaVialKmCarrilPlaneado":"5,39",
+        "mallaVialKmCarrilEjecutado":"5,39",
+        "espacioPublicoM2Planeado":6600.0,
+        "espacioPublicoM2Ejecutado":"4479",
+        "ciclorutaKmPlaneado":"1,28",
+        "ciclorutaKmEjecutado":"0,8",
+        "puentesPeatonalesPlaneado":2.0,
+        "puentesPeatonalesEjecutado":"1",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
+        "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
+        "observacionesProble":""
     }
 ]

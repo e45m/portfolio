@@ -12,20 +12,20 @@
         "fechaIniciacion":"2020-06-25",
         "fechaTerminacion":"2031-02-24",
         "empleosGenerados":89,
-        "troncalKmPlaneado":null,
-        "troncalKmEjecutado":null,
-        "mallaVialKmCarrilPlaneado":null,
-        "mallaVialKmCarrilEjecutado":null,
-        "espacioPublicoM2Planeado":null,
-        "espacioPublicoM2Ejecutado":null,
-        "ciclorutaKmPlaneado":null,
-        "ciclorutaKmEjecutado":null,
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "troncalKmPlaneado":"0",
+        "troncalKmEjecutado":"0",
+        "mallaVialKmCarrilPlaneado":"0",
+        "mallaVialKmCarrilEjecutado":"0",
+        "espacioPublicoM2Planeado":"0",
+        "espacioPublicoM2Ejecutado":"0",
+        "ciclorutaKmPlaneado":"0",
+        "ciclorutaKmEjecutado":"0",
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-02-28",
@@ -53,7 +53,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-02-28",
@@ -81,7 +81,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-04-25",
@@ -109,7 +109,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-07-26",
@@ -137,7 +137,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-08-30",
@@ -165,7 +165,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-01-31",
@@ -193,7 +193,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-03-28",
@@ -221,7 +221,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-05-30",
@@ -249,7 +249,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-06-27",
@@ -277,7 +277,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-07-25",
@@ -305,7 +305,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-08-29",
@@ -333,7 +333,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-12-26",
@@ -361,7 +361,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-03-27",
@@ -389,7 +389,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-04-24",
@@ -417,7 +417,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-08-28",
@@ -866,5 +866,33 @@
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
         "observacionesProble":"OBSERVACIONES-Por parte del componente de estructura se realizan actividades de la siguiente manera:Puente Venecia:- Costado norte. Contin\u00faan con las actividades de ensamble de vigas met\u00e1licas en conexi\u00f3n de la pila 2 a la pila 3 del eje 4.- Costado Occidental: El contratista realiza actividades de llenos y conformaci\u00f3n para sub rasante de estructura de v\u00eda nueva de aproximaci\u00f3n a estribo oriental. Sector Del pulpo:- Costado occidental. Acompa\u00f1amiento para la liberaci\u00f3n de aceros de los muros internos (Fase 2) del costado oriental del Nor occ 4.- Costado occidental. Liberaci\u00f3n de recubrimiento en muros Internos costado oriental de la fase dos costado occidental del m\u00f3dulo Nor - occ 4. Adem\u00e1s, se acompa\u00f1a con el la fundida de concreto para este elemento estructural.- Costado sur occidental. Pasarela central. Armado de aceros de refuerzo para la losa inferior del m\u00f3dulo 4.- Costado sur oriental. Se acompa\u00f1a al contratista con la liberaci\u00f3n de aceros de refuerzo para los muros (Fase 1) m\u00f3dulo 1 del acceso 1 sur oriental. Adem\u00e1s, vaciado de concreto de 4000 PSI.- Costado sur oriental. Excavaci\u00f3n mec\u00e1nica e instalaci\u00f3n de raj\u00f3n para solado de limpieza del modulo 3 del acceso 1 sur oriental.- Costado Nor Oriental. Se inicia con los llenos internos con material de fresado para tercera y cuarta capa del acceso 1 costado nor oriental. Tambi\u00e9n, se toman las densidades de estas dos primeras capas con herramienta de dens\u00edmetro nuclear en total se tomaron 8 densidades."
+    },
+    {
+        "informeFecha":"2025-03-31",
+        "porcentajePlaneado":"54,04%",
+        "porcentajeEjecutado":"53,09%",
+        "variacionPorcentaje":"-3,95%",
+        "valorInicial":"$356.558.147.916,00",
+        "totalContrato":"$381.312.911.935,00",
+        "valorPagado":"$113.987.277.800",
+        "plazoInicial":3840,
+        "plazoActualizado":3840,
+        "fechaIniciacion":"2020-06-25",
+        "fechaTerminacion":"2031-02-24",
+        "empleosGenerados":428,
+        "troncalKmPlaneado":"2,83",
+        "troncalKmEjecutado":"1,03",
+        "mallaVialKmCarrilPlaneado":"22,49",
+        "mallaVialKmCarrilEjecutado":"13,69",
+        "espacioPublicoM2Planeado":"63931,38",
+        "espacioPublicoM2Ejecutado":"34900",
+        "ciclorutaKmPlaneado":"1,83",
+        "ciclorutaKmEjecutado":"0,3",
+        "puentesPeatonalesPlaneado":1.0,
+        "puentesPeatonalesEjecutado":0.0,
+        "cicloparqueaderosPlaneado":0.0,
+        "cicloparqueaderosEjecutado":0.0,
+        "nombreArchivo":"INFORME DE AVANCE CONTRATO EN EJECUCI\u00d3N",
+        "observacionesProble":"Puente Venecia: - Costado Sur-Occidental: En el patio taller se encuentran ya terminados los siete módulos de la viga metálica del tramo que conecta el Estribo 1 a la pila 1 en el eje 3. - Costado Norte: Fabricación de módulos para empalme de viga metálica entre la pila 4 y la pila 3 del eje 6. - Corte y figurado del acero de refuerzo para la placa inferior en la viga metálica pila 3 en el eje 4. Sector Del pulpo: - Acceso 2 Costado Nor occidental - Sector pulpo. Se continua con las actividades para protección de poste ENEL PN511. Se funde el pilote #9 con concreto Tremie 4000 PSI TM1/2\". También se realizó la excavación para el descabece de los pilotes. - Acceso 2 Costado Nor Occidental - Sector Pulpo. Continúan con la instalación de formaletas para acabado final e instalación de platinas de los muros externos del Nor - Occ 4 y se funde con concreto de 4000PSI. - Pasarela Central - Sector Pulpo. Se inició con la excavación, mejoramiento y fundida de solado en módulo 5."
     }
 ]

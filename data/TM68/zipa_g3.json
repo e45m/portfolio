@@ -12,20 +12,20 @@
         "fechaIniciacion":"2020-06-25",
         "fechaTerminacion":"2030-02-24",
         "empleosGenerados":64.0,
-        "troncalKmPlaneado":null,
-        "troncalKmEjecutado":null,
-        "mallaVialKmCarrilPlaneado":null,
-        "mallaVialKmCarrilEjecutado":null,
-        "espacioPublicoM2Planeado":null,
-        "espacioPublicoM2Ejecutado":null,
-        "ciclorutaKmPlaneado":null,
-        "ciclorutaKmEjecutado":null,
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "troncalKmPlaneado":"0",
+        "troncalKmEjecutado":"0",
+        "mallaVialKmCarrilPlaneado":"0",
+        "mallaVialKmCarrilEjecutado":"0",
+        "espacioPublicoM2Planeado":"0",
+        "espacioPublicoM2Ejecutado":"0",
+        "ciclorutaKmPlaneado":"0",
+        "ciclorutaKmEjecutado":"0",
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-02-22",
@@ -53,7 +53,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-03-29",
@@ -81,7 +81,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-04-26",
@@ -109,7 +109,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-07-26",
@@ -137,7 +137,7 @@
         "cicloparqueaderosPlaneado":1.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-08-30",
@@ -165,7 +165,7 @@
         "cicloparqueaderosPlaneado":1.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-01-31",
@@ -193,7 +193,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-03-28",
@@ -221,7 +221,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-05-30",
@@ -249,7 +249,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-06-27",
@@ -277,7 +277,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-07-25",
@@ -305,7 +305,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-08-29",
@@ -333,7 +333,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-09-26",
@@ -353,15 +353,15 @@
         "mallaVialKmCarrilPlaneado":"6,25",
         "mallaVialKmCarrilEjecutado":"0,63",
         "espacioPublicoM2Planeado":"2281",
-        "espacioPublicoM2Ejecutado":null,
-        "ciclorutaKmPlaneado":null,
-        "ciclorutaKmEjecutado":null,
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
-        "nombreArchivo":null,
-        "observacionesProble":null
+        "espacioPublicoM2Ejecutado":"0",
+        "ciclorutaKmPlaneado":"0",
+        "ciclorutaKmEjecutado":"0",
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
+        "nombreArchivo":"0",
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-10-31",
@@ -389,7 +389,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-11-28",
@@ -417,7 +417,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-12-26",
@@ -445,7 +445,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-01-30",
@@ -473,7 +473,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-04-24",
@@ -489,19 +489,19 @@
         "fechaTerminacion":"2030-02-24",
         "empleosGenerados":576.0,
         "troncalKmPlaneado":"1,04",
-        "troncalKmEjecutado":null,
+        "troncalKmEjecutado":"0",
         "mallaVialKmCarrilPlaneado":"6,25",
-        "mallaVialKmCarrilEjecutado":null,
+        "mallaVialKmCarrilEjecutado":"0",
         "espacioPublicoM2Planeado":"22814",
-        "espacioPublicoM2Ejecutado":null,
+        "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"0,72",
-        "ciclorutaKmEjecutado":null,
+        "ciclorutaKmEjecutado":"0",
         "puentesPeatonalesPlaneado":1.0,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-05-29",
@@ -517,19 +517,19 @@
         "fechaTerminacion":"2030-02-24",
         "empleosGenerados":517.0,
         "troncalKmPlaneado":"1,04",
-        "troncalKmEjecutado":null,
+        "troncalKmEjecutado":"0",
         "mallaVialKmCarrilPlaneado":"6,25",
-        "mallaVialKmCarrilEjecutado":null,
+        "mallaVialKmCarrilEjecutado":"0",
         "espacioPublicoM2Planeado":"22814",
-        "espacioPublicoM2Ejecutado":null,
+        "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"0,72",
-        "ciclorutaKmEjecutado":null,
+        "ciclorutaKmEjecutado":"0",
         "puentesPeatonalesPlaneado":1.0,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-06-26",
@@ -545,19 +545,19 @@
         "fechaTerminacion":"2030-02-24",
         "empleosGenerados":538.0,
         "troncalKmPlaneado":"1,04",
-        "troncalKmEjecutado":null,
+        "troncalKmEjecutado":"0",
         "mallaVialKmCarrilPlaneado":"6,25",
-        "mallaVialKmCarrilEjecutado":null,
+        "mallaVialKmCarrilEjecutado":"0",
         "espacioPublicoM2Planeado":"22814",
-        "espacioPublicoM2Ejecutado":null,
+        "espacioPublicoM2Ejecutado":"0",
         "ciclorutaKmPlaneado":"0,72",
-        "ciclorutaKmEjecutado":null,
+        "ciclorutaKmEjecutado":"0",
         "puentesPeatonalesPlaneado":1.0,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-07-31",
@@ -583,9 +583,9 @@
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0",
         "cicloparqueaderosPlaneado":100.0,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-08-29",
@@ -611,9 +611,9 @@
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0",
         "cicloparqueaderosPlaneado":100.0,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-09-25",
@@ -639,9 +639,9 @@
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0",
         "cicloparqueaderosPlaneado":100.0,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-10-30",
@@ -657,7 +657,7 @@
         "fechaTerminacion":"2030-02-24",
         "empleosGenerados":583.0,
         "troncalKmPlaneado":"1,04",
-        "troncalKmEjecutado":null,
+        "troncalKmEjecutado":"0",
         "mallaVialKmCarrilPlaneado":"6,25",
         "mallaVialKmCarrilEjecutado":"2,21",
         "espacioPublicoM2Planeado":"22814",
@@ -667,9 +667,9 @@
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0",
         "cicloparqueaderosPlaneado":100.0,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-12-25",
@@ -695,9 +695,9 @@
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0",
         "cicloparqueaderosPlaneado":100.0,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-01-29",
@@ -753,7 +753,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-03-25",
@@ -781,7 +781,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-04-29",
@@ -795,7 +795,7 @@
         "plazoActualizado":3480,
         "fechaIniciacion":"2020-06-25",
         "fechaTerminacion":"2031-04-24",
-        "empleosGenerados":null,
+        "empleosGenerados":"0",
         "troncalKmPlaneado":"1,04",
         "troncalKmEjecutado":"0,91",
         "mallaVialKmCarrilPlaneado":"6,25",
@@ -809,7 +809,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-05-27",
@@ -837,7 +837,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-06-24",
@@ -865,7 +865,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-07-29",
@@ -893,7 +893,7 @@
         "cicloparqueaderosPlaneado":100.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-09-02",
@@ -921,7 +921,7 @@
         "cicloparqueaderosPlaneado":0.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-11-04",
@@ -949,7 +949,7 @@
         "cicloparqueaderosPlaneado":0.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-12-02",
@@ -977,7 +977,7 @@
         "cicloparqueaderosPlaneado":0.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2024-12-30",
@@ -991,7 +991,7 @@
         "plazoActualizado":3480,
         "fechaIniciacion":"2020-06-25",
         "fechaTerminacion":"2031-04-24",
-        "empleosGenerados":null,
+        "empleosGenerados":"0",
         "troncalKmPlaneado":"1,04",
         "troncalKmEjecutado":"0,93",
         "mallaVialKmCarrilPlaneado":"7,38",
@@ -1005,7 +1005,7 @@
         "cicloparqueaderosPlaneado":0.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2025-01-27",
@@ -1033,7 +1033,7 @@
         "cicloparqueaderosPlaneado":0.0,
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2025-02-24",
@@ -1062,5 +1062,32 @@
         "cicloparqueaderosEjecutado":0.0,
         "nombreArchivo":"IDU-347-2020",
         "observacionesProble":"Se aprob\u00f3 PDT (LB7) debido a reprogramaci\u00f3n de entrega de predios."
-    }
+    },
+    {
+        "informeFecha":"2025-03-31",
+        "porcentajePlaneado":"51,43%",
+        "porcentajeEjecutado":"48,89%",
+        "variacionPorcentaje":"-2,54%",
+        "valorInicial":"$206.413.520.077,00",
+        "totalContrato":"$206.413.520.077,00",
+        "valorPagado":"$82.821.402.872,00",
+        "plazoInicial":3480,
+        "plazoActualizado":3480,
+        "fechaIniciacion":"2020-06-25",
+        "fechaTerminacion":"2031-04-24",
+        "empleosGenerados":607,
+        "troncalKmPlaneado":"1,04",
+        "troncalKmEjecutado":"0,93",
+        "mallaVialKmCarrilPlaneado":"7,38",
+        "mallaVialKmCarrilEjecutado":"3,33",
+        "espacioPublicoM2Planeado":"23911,37",
+        "espacioPublicoM2Ejecutado":"7848,00",
+        "ciclorutaKmPlaneado":"0,84",
+        "ciclorutaKmEjecutado":"0,24",
+        "puentesPeatonalesPlaneado":1.0,
+        "puentesPeatonalesEjecutado":"1",
+        "cicloparqueaderosPlaneado":0.0,
+        "cicloparqueaderosEjecutado":0.0,
+        "nombreArchivo":"IDU-347-2020",
+        "observacionesProble":"Contrato en ejecución de la etapa de Construcción, se continúa con la demolición del puente peatonal de la calle 10, cimentación de taquilla, fundición de vigas en el deprimido Av. 68 así como la instalación de redes sanitarias en el sector Oriental."}
 ]

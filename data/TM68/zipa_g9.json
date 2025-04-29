@@ -12,20 +12,20 @@
         "fechaIniciacion":"2020-06-26",
         "fechaTerminacion":"2030-02-25",
         "empleosGenerados":51,
-        "troncalKmPlaneado":null,
-        "troncalKmEjecutado":null,
-        "mallaVialKmCarrilPlaneado":null,
-        "mallaVialKmCarrilEjecutado":null,
-        "espacioPublicoM2Planeado":null,
-        "espacioPublicoM2Ejecutado":null,
-        "ciclorutaKmPlaneado":null,
-        "ciclorutaKmEjecutado":null,
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "troncalKmPlaneado":"0",
+        "troncalKmEjecutado":"0",
+        "mallaVialKmCarrilPlaneado":"0",
+        "mallaVialKmCarrilEjecutado":"0",
+        "espacioPublicoM2Planeado":"0",
+        "espacioPublicoM2Ejecutado":"0",
+        "ciclorutaKmPlaneado":"0",
+        "ciclorutaKmEjecutado":"0",
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2020-10-26",
@@ -40,20 +40,20 @@
         "fechaIniciacion":"2020-06-26",
         "fechaTerminacion":"2030-02-25",
         "empleosGenerados":51,
-        "troncalKmPlaneado":null,
-        "troncalKmEjecutado":null,
-        "mallaVialKmCarrilPlaneado":null,
-        "mallaVialKmCarrilEjecutado":null,
-        "espacioPublicoM2Planeado":null,
-        "espacioPublicoM2Ejecutado":null,
-        "ciclorutaKmPlaneado":null,
-        "ciclorutaKmEjecutado":null,
-        "puentesPeatonalesPlaneado":null,
-        "puentesPeatonalesEjecutado":null,
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "troncalKmPlaneado":"0",
+        "troncalKmEjecutado":"0",
+        "mallaVialKmCarrilPlaneado":"0",
+        "mallaVialKmCarrilEjecutado":"0",
+        "espacioPublicoM2Planeado":"0",
+        "espacioPublicoM2Ejecutado":"0",
+        "ciclorutaKmPlaneado":"0",
+        "ciclorutaKmEjecutado":"0",
+        "puentesPeatonalesPlaneado":"0",
+        "puentesPeatonalesEjecutado":"0",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-06-28",
@@ -78,10 +78,10 @@
         "ciclorutaKmEjecutado":"0",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-10-25",
@@ -106,10 +106,10 @@
         "ciclorutaKmEjecutado":"0,59",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,93",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-11-29",
@@ -134,10 +134,10 @@
         "ciclorutaKmEjecutado":"0",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,01",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-11-29",
@@ -162,10 +162,10 @@
         "ciclorutaKmEjecutado":"0,59",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,01",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2021-12-27",
@@ -190,10 +190,10 @@
         "ciclorutaKmEjecutado":"0,59",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,17",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-01-31",
@@ -218,10 +218,10 @@
         "ciclorutaKmEjecutado":"0,59",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,56",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-01-31",
@@ -246,10 +246,10 @@
         "ciclorutaKmEjecutado":"0,59",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,56",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-02-28",
@@ -274,10 +274,10 @@
         "ciclorutaKmEjecutado":"0,16",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,73",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-03-28",
@@ -302,10 +302,10 @@
         "ciclorutaKmEjecutado":"0,18",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,74",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-04-25",
@@ -330,10 +330,10 @@
         "ciclorutaKmEjecutado":"0,3",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,88",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-05-30",
@@ -358,10 +358,10 @@
         "ciclorutaKmEjecutado":"0,35",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,92",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-06-27",
@@ -386,10 +386,10 @@
         "ciclorutaKmEjecutado":"0,57",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,92",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-07-25",
@@ -414,10 +414,10 @@
         "ciclorutaKmEjecutado":"0,57",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,92",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-08-29",
@@ -442,10 +442,10 @@
         "ciclorutaKmEjecutado":"0,59",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,93",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-09-26",
@@ -470,10 +470,10 @@
         "ciclorutaKmEjecutado":"0,62",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,95",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-10-31",
@@ -498,10 +498,10 @@
         "ciclorutaKmEjecutado":"0,66",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,98",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2022-11-28",
@@ -526,10 +526,10 @@
         "ciclorutaKmEjecutado":"0,66",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-01-30",
@@ -554,10 +554,10 @@
         "ciclorutaKmEjecutado":"0,79",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-02-27",
@@ -582,10 +582,10 @@
         "ciclorutaKmEjecutado":"0,83",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-03-27",
@@ -610,10 +610,10 @@
         "ciclorutaKmEjecutado":"0,83",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-04-24",
@@ -638,10 +638,10 @@
         "ciclorutaKmEjecutado":"1,67",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-05-29",
@@ -666,10 +666,10 @@
         "ciclorutaKmEjecutado":"0,83",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-06-26",
@@ -694,10 +694,10 @@
         "ciclorutaKmEjecutado":"0,77",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
-        "observacionesProble":null
+        "observacionesProble":"0"
     },
     {
         "informeFecha":"2023-07-31",
@@ -722,8 +722,8 @@
         "ciclorutaKmEjecutado":"1,51",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"En este periodo, a lo largo del corredor, entre la Carrera 47 y la Carrera 7ma, se desarrollan actividades de conformaci\u00f3n de espacio p\u00fablico en el costado sur, conformaci\u00f3n de carriles para tr\u00e1fico mixto y para carriles exclusivos de biarticulados (BRT). Igualmente se trabaja en el colector de aguas lluvias (expreso norte) entre la Carrera 11 y Carrera 15. Adicionalmente se continua con las actividades de excavaci\u00f3n y amarre de acero para la cimentaci\u00f3n de la Estaci\u00f3n BRT # 19, entre la Carrera 19 y la Autopista Norte."
     },
@@ -750,8 +750,8 @@
         "ciclorutaKmEjecutado":"1,51",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Actualmente se continua trabajando en la Estaci\u00f3n BRT # 19, ubicada en la calle 100 entre la carrera 19 y la Autopista Norte, se finaliza el vaciado de concreto para las zapatas de la cimentaci\u00f3n y se inicia amarre de acero, instalaci\u00f3n de formaleta para las vigas de amarre. Para este periodo, se desarrollaron actividades para la conformaci\u00f3n de espacio p\u00fablico, tanto en zonas duras como en zonas verdes, adicionalmente se trabaj\u00f3 en la conformaci\u00f3n de carriles BRT, los cuales estar\u00e1n al servicio del tr\u00e1fico de buses del sistema Transmilenio y carriles para tr\u00e1fico mixto. En este periodo se adelantan actividades de limpieza y retiro de escombros en el cicloparqueadero ubicado en la calle 100 entre la carrera 23 y Autopista Norte."
     },
@@ -778,8 +778,8 @@
         "ciclorutaKmEjecutado":"1,56",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Para el periodo actual se contin\u00faan adelantando actividades para la conformaci\u00f3n de espacio p\u00fablico, tanto en zonas duras como en zonas verdes, adicionalmente se trabaj\u00f3 en la conformaci\u00f3n de carriles BRT, los cuales estar\u00e1n al servicio del tr\u00e1fico de buses del sistema Transmilenio y carriles para tr\u00e1fico mixto. Para la Estaci\u00f3n BRT# 20, ubicada en la calle 100 entre la Carrera 14 y la Carrera 11, se continua con los trabajos de excavaci\u00f3n para las zapatas de la cimentaci\u00f3n, adicionalmente se realiza vaciado de concreto para zapatas. Para la Estaci\u00f3n BRT # 19, ubicada en la calle 100 entre la carrera 19 y la Autopista Norte, se realiza la excavaci\u00f3n mec\u00e1nica para la rampa de acceso occidental e instalaci\u00f3n de canalizaciones para rede el\u00e9ctricas."
     },
@@ -806,8 +806,8 @@
         "ciclorutaKmEjecutado":"1,67",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Para el periodo actual se adelantaron actividades para la conformaci\u00f3n de carriles BRT, los cuales estar\u00e1n al servicio del tr\u00e1fico de buses del sistema Transmilenio y carriles para tr\u00e1fico mixto, igualmente se continua con las actividades para la conformaci\u00f3n de espacio p\u00fablico, tanto en zonas duras como en zonas verdes y conformaci\u00f3n de ciclorutas. En la Estaci\u00f3n BRT# 20, ubicada en la calle 100 entre la Carrera 14 y la Carrera 11, se continua con los trabajos de excavaci\u00f3n para las zapatas de la cimentaci\u00f3n, adicionalmente se realiza amarre de acero, armado de formaleta y vaciado de concreto para vigas longitudinales."
     },
@@ -834,8 +834,8 @@
         "ciclorutaKmEjecutado":"1,67",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Se iniciaron actividades en la construcci\u00f3n de los pozos de lanzamiento y de salida para la instalaci\u00f3n del cruce de tuber\u00eda en la Autopista Norte, el cual se realizar\u00e1 por m\u00e9todo sin zanja. Se adelantaron actividades para la conformaci\u00f3n de carriles BRT, los cuales estar\u00e1n al servicio del tr\u00e1fico de buses del sistema Transmilenio y carriles para tr\u00e1fico mixto, igualmente se continua con las actividades para la conformaci\u00f3n de espacio p\u00fablico, tanto en zonas duras como en zonas verdes y conformaci\u00f3n de ciclorutas. Se continuo con el vaciado de concreto para pedestales en la estaci\u00f3n BRT de la Carrera 11., as\u00ed mismo se continua con excavaci\u00f3n de las taquillas exteriores, tanto de la estaci\u00f3n BRT #20 y BRT #19."
     },
@@ -862,8 +862,8 @@
         "ciclorutaKmEjecutado":"1,74",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Se trabaja en el pozo de lanzamiento y de salida para la construcci\u00f3n del cruce sin zanja del colector norte, a la altura de la Autopista Norte. Contin\u00faan los trabajos en la conformaci\u00f3n tanto de carriles BRT como carriles mixtos, espacio p\u00fablico y construcci\u00f3n de redes secas y h\u00famedas. Igualmente se trabaja en la construcci\u00f3n de las estaciones y las taquillas externas tanto en la Carrera 19 como en la Carrera 11."
     },
@@ -890,8 +890,8 @@
         "ciclorutaKmEjecutado":"1,74",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Se trabaja en el pozo de lanzamiento y de salida para la construcci\u00f3n del cruce sin zanja del colector norte, a la altura de la Autopista Norte. Contin\u00faan los trabajos tanto de carriles BRT, destinados para buses Transmilenio, como carriles mixtos, espacio p\u00fablico y construcci\u00f3n de redes secas y h\u00famedas. Igualmente se trabaja en la construcci\u00f3n de las estaciones en la Carrera 19 y en la Carrera 11 y la taquilla costado sur, de esta estaci\u00f3n."
     },
@@ -918,8 +918,8 @@
         "ciclorutaKmEjecutado":"1,74",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Contin\u00faan las actividades de hincado de tuber\u00eda para la construcci\u00f3n del cruce sin zanja del colector norte, a la altura de la Autopista Norte. Se trabaja en la construcci\u00f3n de las estaciones en la Carrera 19 (Instalaci\u00f3n de estructura met\u00e1lica principal) y en la Carrera 11 (cimentaci\u00f3n) y la taquilla costado sur, de esta estaci\u00f3n. Contin\u00faan los trabajos tanto de carriles BRT, destinados para buses Transmilenio, como carriles mixtos, espacio p\u00fablico y construcci\u00f3n de redes secas y h\u00famedas, a lo largo del corredor."
     },
@@ -946,8 +946,8 @@
         "ciclorutaKmEjecutado":"1,74",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Se ejecutan actividades en carriles BRT, destinados para buses Transmilenio, como carriles mixtos, espacio p\u00fablico y construcci\u00f3n de redes secas y h\u00famedas, a lo largo del corredor. Se trabaja en la construcci\u00f3n de las estaciones en la Carrera 19 y en la Carrera 11. Continua la construcci\u00f3n de pozo de lanzamiento para cruce sin zanja en la Carrera 9na."
     },
@@ -974,8 +974,8 @@
         "ciclorutaKmEjecutado":"1,74",
         "puentesPeatonalesPlaneado":1.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Se ejecutan actividades en carriles BRT, destinados para buses Transmilenio, como carriles mixtos, espacio p\u00fablico y construcci\u00f3n de redes secas y h\u00famedas, a lo largo del corredor. Se trabaja en la instalaci\u00f3n de la estructura met\u00e1lica para el segundo vag\u00f3n de la estaci\u00f3n de la Carrera 19 y construcci\u00f3n de la cimentaci\u00f3n en la estaci\u00f3n de la Carrera 11. Se inicia con las actividades de hinca de tuber\u00eda para el cruce sin zanja en la Carrera 9na."
     },
@@ -1002,8 +1002,8 @@
         "ciclorutaKmEjecutado":"1,74",
         "puentesPeatonalesPlaneado":0.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Se continua con la instalaci\u00f3n de la estructura met\u00e1lica en el vag\u00f3n 1 y vag\u00f3n 2 de la estaci\u00f3n de la Carrera 11. Se ejecutan actividades en carriles BRT, destinados para buses Transmilenio, como carriles mixtos, espacio p\u00fablico y construcci\u00f3n de redes secas y h\u00famedas, a lo largo del corredor. Se continua con actividades de limpieza para el reforzamiento de las pilas del puente vehicular de la Calle 100 con carrera 15, costado norte."
     },
@@ -1030,8 +1030,8 @@
         "ciclorutaKmEjecutado":"1,74",
         "puentesPeatonalesPlaneado":0.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Se continua en la ejecuci\u00f3n de actividades para la conformaci\u00f3n de carriles BRT, destinados para buses Transmilenio, y en carriles mixtos, as\u00ed como actividades en espacio p\u00fablico, construcci\u00f3n de redes secas y h\u00famedas, a lo largo del corredor. Se continua con la instalaci\u00f3n de la estructura met\u00e1lica en el vag\u00f3n 1 y vag\u00f3n 2 de la estaci\u00f3n de la Carrera 11. Se realizan actividades de instalaci\u00f3n de formaleta para vaciado de concreto en las pilas del puente vehicular de la Calle 100 con carrera 15, costado norte. Para el Colector Pluvial Norte, se continua con el lanzamiento de tuber\u00eda para el colector pluvial norte."
     },
@@ -1058,8 +1058,8 @@
         "ciclorutaKmEjecutado":"1,75",
         "puentesPeatonalesPlaneado":0.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"-Espacio p\u00fablico se adelantan actividades de excavaci\u00f3n, inst. de redes, rellenos, compactaci\u00f3n e instalaci\u00f3n de adoqu\u00edn en costado norte entre la carrera 11 hasta la cra 13. Glorieta cra 15 y cra 47A a la cra 48. -BRT Se realizan actividades de fresado e instalaci\u00f3n de mezcla en puente vehicular Autonorte con calle 100 carril sur costado norte. -Carril MIXTO se adelantan actividades en conectante occidente - Sur en la Calle 100 con autopista norte. -Estaci\u00f3n #20 cra 11 se adelantan actividades de Estructura met\u00e1lica pintura y soldadura -Taquillas cra 19 sur, se adelantan adecuaciones y pedestales -Redes se finaliza lanzamiento de tuber\u00eda de la glorieta cra 15 a la cra 9, se inician actividades de extracci\u00f3n de equipo."
     },
@@ -1086,9 +1086,37 @@
         "ciclorutaKmEjecutado":"1,75",
         "puentesPeatonalesPlaneado":0.0,
         "puentesPeatonalesEjecutado":"0,99",
-        "cicloparqueaderosPlaneado":null,
-        "cicloparqueaderosEjecutado":null,
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
         "nombreArchivo":"Informe de Avance Contrato en Ejecuci\u00f3n",
         "observacionesProble":"Proyecto en Etapa de Construcci\u00f3n, Se continua en la ejecuci\u00f3n de actividades para la conformaci\u00f3n de carriles BRT, destinados para buses Transmilenio, y en carriles mixtos, as\u00ed como actividades en espacio p\u00fablico, construcci\u00f3n de redes secas y h\u00famedas, a lo largo del corredor. Se continua con la instalaci\u00f3n de estructura met\u00e1lica en el vag\u00f3n 1 y vag\u00f3n 2 de la estaci\u00f3n de la Carrera 11. Se realizan actividades de abusardado y perforaci\u00f3n en las pilas del puente vehicular de la Calle 100 con carrera 15, costado sur y armado y fundida de viga perimetral de pilas costado norte. Para el Colector Pluvial Norte, se continua con las adecuaciones de los pozos de lanzamiento para el colector pluvial norte en la glorieta de la Calle 100 con Carrera 15 y el pozo de salida en la Autonorte."
+    }    ,
+    {
+        "informeFecha":"2025-03-31",
+        "porcentajePlaneado":"39,64%",
+        "porcentajeEjecutado":"43,73%",
+        "variacionPorcentaje":"5,19%",
+        "valorInicial":"$251.047.561.743,00",
+        "totalContrato":"$282.039.842.404,00",
+        "valorPagado":"$112.975.005.346,00",
+        "plazoInicial":3480,
+        "plazoActualizado":4080,
+        "fechaIniciacion":"2020-06-26",
+        "fechaTerminacion":"2031-10-25",
+        "empleosGenerados":572,
+        "troncalKmPlaneado":"2,23",
+        "troncalKmEjecutado":"1,0",
+        "mallaVialKmCarrilPlaneado":"14,1",
+        "mallaVialKmCarrilEjecutado":"9,38",
+        "espacioPublicoM2Planeado":40115.0,
+        "espacioPublicoM2Ejecutado":"22727,23",
+        "ciclorutaKmPlaneado":"3,15",
+        "ciclorutaKmEjecutado":"1,75",
+        "puentesPeatonalesPlaneado":0.0,
+        "puentesPeatonalesEjecutado":"0,99",
+        "cicloparqueaderosPlaneado":"0",
+        "cicloparqueaderosEjecutado":"0",
+        "nombreArchivo":"x",
+        "observacionesProble":"En ejecución de la Etapa de Construcción: Con la continuidad en la ejecución de actividades para la conformación de carriles Mixto en conectantes, así como actividades en espacio público, construcción de redes secas y húmedas, sobre el costado norte del corredor. e continua con la pintura y soldadura en la estructura metálica en el vagón 1 y vagón 2 de la estación de la Carrera 11, se adelantan actividades en cimentación y redes en taquillas cra 11. Se realizan actividades de abusardado y perforación costado sur y actividades de fundida de concreto para vigas perimetrales en pilas costado norte en las pilas del puente vehicular de la Calle 100 con carrera 15. Para el Colector Pluvial Norte, se continua con las adecuaciones de los pozos de lanzamiento para el colector pluvial norte en la conectante del costado noroccidental de la Autopista Norte.."
     }
-]
+    ]
