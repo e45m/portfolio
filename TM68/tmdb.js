@@ -24,7 +24,7 @@ let grupo =  document.getElementById('selectGrupo').value;
         // const op = await fetch('../data/TM68/op.json');
        // zipa =  loadZIPA_G4();
 
-        const resp = await fetch(`../data/TM68/zipa_g${grupo}.json`);
+        const resp = await fetch(`data/zipa_g${grupo}.json`);
         zipa = await resp.json();
 
      } catch (error) {
