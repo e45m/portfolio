@@ -3,35 +3,54 @@ const WEBREPO = 'www.datos.gov.co';
 const DATASETNAME = 'p6dx-8zbt';
 const MODALIDAD = 'Licitación pública Obra Publica';
 const PRECIO_BASE = 500000000; ///500.000.000
-const FASE_LIKE = "%Presentación%";
+const FASE_LIKE = "Presentación";
 const ESTADO_LIKE = "Publicado";
-const LIMIT = 100;
+const LIMIT = 50000;
 const IDPROCMIN = 6000000;
 
 let datosGlobales = [];
 let presupuestosEntidadChart, presupuestosTiempoChart, procesosUnspscChart;
 
 async function cargarDatos() {
-    const unspscCodesInput = document.getElementById('unspscCodes').value;
+
+
+
+
+
+    const unspscCodesInput = document.getElementById('unspscCodes').value || '1,2,3,4,5,6,7,8,9' ;
+    const precio_baseInput = document.getElementById('precioMin').value || PRECIO_BASE ;
+    const modalidadInput = obtenerValoresSelect("modalidad") || MODALIDAD ;
+    const faseInput = obtenerValoresSelect("fase") || FASE_LIKE ;
+
+    // console.log(modalidadInput);
+    // console.log(faseInput);
+
+
     const UNSPSC = unspscCodesInput.split(',').map(code => code.trim());
+    const MOD = modalidadInput.split(',').map(code => code.trim());
+    const FASE = faseInput.split(',').map(code => code.trim());
 
     // const selectOrdenarpor = document.getElementById('ordenar_por');
     // const resOrdenpor = document.getElementById('opt_ordenar_por');
     const ordenPor = document.getElementById('opt_ordenar_por').value;
 
+    const listaMOD =  MOD.map(code => `modalidad_de_contratacion LIKE "${code}"`).join(' OR ') ;
     const listaUNSPSC = ' AND (' + UNSPSC.map(code => `codigo_principal_de_categoria LIKE "V1.${code}%"`).join(' OR ') + ')';
+    const listaFASE = ' AND (' + FASE.map(code => `fase LIKE "${code}"`).join(' OR ') + ')';
 
     const sqlSelect = `
-        SELECT * WHERE (modalidad_de_contratacion = "${MODALIDAD}")
+        SELECT * WHERE (${listaMOD})
         ${listaUNSPSC}
-        AND (fase LIKE "${FASE_LIKE}")
+        ${listaFASE}
         AND (estado_del_procedimiento LIKE "${ESTADO_LIKE}")
-        AND (precio_base>=${PRECIO_BASE})
+        AND (precio_base>=${precio_baseInput})
         AND (estado_de_apertura_del_proceso = "Abierto")
         ORDER BY (LEFT_PAD(SUBSTRING(id_del_proceso, 9),7,'0'))  DESC
         LIMIT ${LIMIT}
 
     `;
+
+    console.log(sqlSelect);
 //https://dev.socrata.com/docs/functions/#2.1,
 
     // 611117
@@ -47,7 +66,7 @@ async function cargarDatos() {
         const response = await fetch(API_ENDPOINT);
         const data = await response.json();
         data1 = interpolaFechas(data);
-
+        console.log(data.length);
         //Ordenar los datos
         switch(ordenPor){
 

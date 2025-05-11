@@ -36,14 +36,46 @@
         <h1>Consulta Datos de Contratación Colombia (Modalidad Licitación de Obra Pública)- SECOP 2</h1>
 
 
-        <!-- Input para los códigos UNSPSC -->
-        <label for="unspscCodes">Códigos UNSPSC:</label>
-        <input type="text" id="unspscCodes" value="7214,7215,3012,8011">
-        <br>
 
-        <!-- Filtro por rango de precios -->
+        <!-- Input para los códigos UNSPSC -->
+<label for="unspscCodes">Códigos UNSPSC:</label>
+<input type="text"  id="unspscCodes" value="72,3012,8011">
+
+
+                <!-- Input para los códigos UNSPSC -->
+<label for="ops">Seleccione modalidad y Fase del proceso:</label>
+<div id='ops'>
+<select multiple id='modalidad'>
+  <option value="Selección Abreviada Menor Cuantía Sin Manifestación Interés">Selección Abreviada Menor Cuantía Sin Manifestación Interés</option>
+  <option value="Concurso de méritos abierto">Concurso de méritos abierto</option>
+  <option value="Licitación pública Obra Publica" selected>Licitación pública Obra Publica</option>
+  <option value="Solicitud de información a los Proveedores">Solicitud de información a los Proveedores</option>
+  <option value="Subasta de prueba">Subasta de prueba</option>
+  <option value="Selección Abreviada de Menor Cuantía">Selección Abreviada de Menor Cuantía</option>
+  <option value="Enajenación de bienes con sobre cerrado">Enajenación de bienes con sobre cerrado</option>
+  <option value="Contratación Directa (con ofertas)">Contratación Directa (con ofertas)</option>
+  <option value="Licitación pública">Licitación pública</option>
+  <option value="Enajenación de bienes con subasta">Enajenación de bienes con subasta</option>
+</select>
+
+<!-- <label for="fase">Fase:</label> -->
+<select multiple id='fase'>
+  <option value="Presentación de oferta" >Presentación de oferta</option>
+  <option value="Selección de ofertas (borrador)">Selección de ofertas (borrador)</option>
+  <option value="Presentación de Observaciones">Presentación de Observaciones</option>
+  <option value="Presentación de oferta (precalificación)">Presentación de oferta (precalificación)</option>
+  <option value="Presentación de observaciones (precalificación)">Presentación de observaciones (precalificación)</option>
+  <option value="Proceso de ofertas">Proceso de ofertas</option>
+  <option value="Fase de Concurso">Fase de Concurso</option>
+  <option value="Clarification submission">Clarification submission</option>
+  <option value="Manifestación de Interés (Menor Cuantía)">Manifestación de Interés (Menor Cuantía)</option>
+  <option value="Fase de Selección (Presentación de ofertas)" selected>Fase de Selección (Presentación de ofertas)</option>
+</select>
+
+</div>
+    <!-- Filtro por rango de precios -->
         <label for="precioMin">Precio Mínimo:</label>
-        <input type="number" id="precioMin" value=10000000000 placeholder="Mínimo" onkeyup="filtrarTabla()">
+        <input type="number" id="precioMin" value=0 placeholder="Mínimo" onkeyup="filtrarTabla()">
 
 
 

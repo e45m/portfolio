@@ -1,3 +1,22 @@
+function obtenerValoresSelect(nombreSelect) {
+  const selectElement = document.getElementById(nombreSelect);
+  if (!selectElement) {
+    console.error(`Elemento select con id "${nombreSelect}" no encontrado.`);
+    return ""; // O null, o lanzar un error, dependiendo de cómo quieras manejar el error.
+  }
+
+  const valoresSeleccionados = [];
+  for (let i = 0; i < selectElement.options.length; i++) {
+    if (selectElement.options[i].selected) {
+      valoresSeleccionados.push(selectElement.options[i].value);
+    }
+  }
+  // console.log(valoresSeleccionados.join(","));
+  return valoresSeleccionados.join(",");
+}
+
+
+
 
 function ordenarDataset(dataset, columna, orden='asc',tipo='string') {
 
