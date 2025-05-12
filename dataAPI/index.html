@@ -38,14 +38,16 @@
 
 
         <!-- Input para los códigos UNSPSC -->
-<label for="unspscCodes">Códigos UNSPSC:</label>
-<input type="text"  id="unspscCodes" value="72,3012,8011">
+<label for="unspscCodes">Códigos UNSPSC: consulte : <a href="https://linea.ccb.org.co/clasificadorunspsc/forms/formulariotermcondiclasificador.aspx" target="_blank"> aqui </a> los codigos o familias (ejemplo: 72, 3012,8011) </label>
+<input type="text"  id="unspscCodes" value="72,3012,8011" title= "">
 
 
                 <!-- Input para los códigos UNSPSC -->
-<label for="ops">Seleccione modalidad y Fase del proceso:</label>
-<div id='ops'>
-<select multiple id='modalidad'>
+
+<div class="tarjeta" style= "margin: 0px;width:98%" >
+<label for="modalidad" style="width: auto;display:flex;">Modalidad <br> (Ctr. para seleccionar varias):</label>
+
+<select multiple id='modalidad' style="width: auto;">
   <option value="Selección Abreviada Menor Cuantía Sin Manifestación Interés">Selección Abreviada Menor Cuantía Sin Manifestación Interés</option>
   <option value="Concurso de méritos abierto">Concurso de méritos abierto</option>
   <option value="Licitación pública Obra Publica" selected>Licitación pública Obra Publica</option>
@@ -58,8 +60,8 @@
   <option value="Enajenación de bienes con subasta">Enajenación de bienes con subasta</option>
 </select>
 
-<!-- <label for="fase">Fase:</label> -->
-<select multiple id='fase'>
+<label for="fase" style="width: auto;display:flex;">Fase del proceso <br> (Ctr. para seleccionar varias):</label>
+<select multiple id='fase' style="width: auto;">
   <option value="Presentación de oferta" >Presentación de oferta</option>
   <option value="Selección de ofertas (borrador)">Selección de ofertas (borrador)</option>
   <option value="Presentación de Observaciones">Presentación de Observaciones</option>
@@ -77,13 +79,9 @@
         <label for="precioMin">Precio Mínimo:</label>
         <input type="number" id="precioMin" value=0 placeholder="Mínimo" onkeyup="filtrarTabla()">
 
-
-
-
         <label for="precioMax">Precio Máximo:</label>
         <input type="number" id="precioMax" placeholder="Máximo" onkeyup="filtrarTabla()">
         <br>
-
 
         <label for="filtroEntidad">Filtrar por Entidad:</label>
         <input type="text" id="filtroEntidad" onkeyup="filtrarTabla()" placeholder="Entidad">
